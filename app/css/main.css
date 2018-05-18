@@ -25016,6 +25016,28 @@ body.pushable > .pusher {
     .jfeedback__input:focus {
       outline: none; }
 
+.jtext-dots {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap; }
+
+.jcomment__title {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: bold; }
+
+.jcomment__subtitle {
+  color: #db2828;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-top: 8px;
+  padding-bottom: 30px; }
+
+.jcomment__message {
+  line-height: 1.8rem; }
+  .jcomment__message:after, .jcomment__message:before {
+    content: '"'; }
+
 *:focus {
   outline: none; }
 
