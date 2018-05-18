@@ -1,12 +1,22 @@
 // vars
 $border-radius: 3px
-$font-size-base: 14px
+$font-size-base: 1rem
 
-$jcolor-primary: #95E1D3
-$jcolor-accent: #F38181
+$jcolor-primary: #314C7D
+$jcolor-accent: #db2828
 $jcolor-secondary: #FCE38A 
 $jcolor-light: #EAFFD0
 $jcolor-white: #FCFEFE
+
+.jcolor-white
+	color: white
+.jcolor-primary
+	color: $jcolor-primary !important
+.jcolor-accent
+	color: $jcolor-accent !important
+
+.jbackground-primary
+	background-color: $jcolor-primary !important
 
 @import "libs"
 @import "fonts"
@@ -14,10 +24,12 @@ $jcolor-white: #FCFEFE
 // @import "../blocks/jpage"
 @import "../blocks/jtop-line"
 @import "../blocks/jheader"
+@import "../blocks/jheader-info"
 @import "../blocks/jwrapper-flex"
 @import "../blocks/jpromotion"
 @import "../blocks/jcounter/jcounter"
 @import "../blocks/jblock"
+@import "../blocks/jbackground"
 @import "../blocks/jservice"
 @import "../blocks/jmedia/jmedia"
 @import "../blocks/jfooter"

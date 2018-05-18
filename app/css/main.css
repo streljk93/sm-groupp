@@ -1,7 +1,19 @@
 @charset "UTF-8";
-/* Slider */
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin);
 @import url("https://fonts.googleapis.com/css?family=Roboto|Russo+One");
+.jcolor-white {
+  color: white; }
+
+.jcolor-primary {
+  color: #314C7D !important; }
+
+.jcolor-accent {
+  color: #db2828 !important; }
+
+.jbackground-primary {
+  background-color: #314C7D !important; }
+
+/* Slider */
 .slick-slider {
   position: relative;
   display: block;
@@ -24629,7 +24641,7 @@ body.pushable > .pusher {
           align-items: center; }
 
 .jheader {
-  height: 650px;
+  height: 800px;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
@@ -24666,7 +24678,8 @@ body.pushable > .pusher {
     opacity: .4;
     z-index: -1; }
   .jheader__left {
-    text-align: left; }
+    text-align: left;
+    margin-bottom: 130px; }
   .jheader__label {
     padding: 4px 10px;
     background: rgba(255, 255, 255, 0.4);
@@ -24681,6 +24694,32 @@ body.pushable > .pusher {
     margin: 15px 0; }
   .jheader__space {
     height: 100%; }
+
+.jheader-info {
+  height: 0px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .jheader-info__wrap {
+    background: white;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+    position: absolute;
+    width: 800px;
+    padding: 50px;
+    text-align: center;
+    top: -155px; }
+  .jheader-info__title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-bottom: 15px; }
+  .jheader-info__content {
+    font-size: .95rem; }
 
 .jwrapper-flex {
   display: -webkit-box;
@@ -24730,7 +24769,7 @@ body.pushable > .pusher {
   .jpromotion__image-label {
     border-radius: 3px;
     color: white;
-    background-color: #F38181;
+    background-color: #db2828;
     position: absolute;
     top: 0;
     margin: 15px;
@@ -24764,7 +24803,7 @@ body.pushable > .pusher {
     text-transform: uppercase; }
 
 .jcounter {
-  font-size: 14px;
+  font-size: 1rem;
   font-family: Russo One;
   padding: 15px;
   width: 100%;
@@ -24779,96 +24818,65 @@ body.pushable > .pusher {
     color: white; }
 
 .jblock__wrap {
-  padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-top: 80px;
+  padding-bottom: 80px; }
 
 .jblock__title {
   font-family: 'Russo One';
-  font-size: 15.6px;
+  font-size: 1.8rem;
   text-transform: uppercase;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 30px; }
+  margin-bottom: 60px; }
   .jblock__title:after {
     content: '';
     display: block;
     height: 4px;
-    width: 100px;
-    background: #F38181; }
+    max-width: 150px;
+    background: #db2828;
+    margin-top: 20px; }
+
+.jbackground {
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 0; }
+  .jbackground:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    opacity: .3;
+    z-index: -2; }
+  .jbackground:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #314C7D;
+    opacity: .7;
+    z-index: -1; }
 
 .jservice {
-  padding: 15px;
-  height: 100%; }
-  .jservice__wrap {
-    border-radius: 3px;
-    background-color: #F38181;
-    height: 100%;
-    position: relative; }
-    .jservice__wrap:hover .jservice__hover {
-      opacity: 1; }
-  .jservice__img {
-    border-radius: 3px;
-    height: 100%;
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .jservice__icon {
+    padding-top: 12px; }
+  .jservice__main {
+    padding-left: 8px; }
   .jservice__title {
-    border-radius: 3px 3px 0 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    color: white;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    top: 0;
-    left: 0;
-    padding: 5px 10px;
-    font-family: Russo One;
-    font-size: .9rem;
-    text-transform: uppercase;
-    z-index: 2; }
-  .jservice__info {
-    border-radius: 3px 0 0 0;
-    background: white;
-    color: gray("600");
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 5px 10px;
-    font-size: .9rem;
-    text-align: center;
-    z-index: 2; }
-  .jservice__hover {
-    border-radius: 3px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white !important;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-size: 5rem;
-    z-index: 1;
-    cursor: pointer;
-    text-decoration: none !important;
-    opacity: 0; }
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    font-weight: bold;
+    padding-bottom: 10px; }
+  .jservice__content {
+    font-size: .95rem; }
 
 .jmedia {
   display: -webkit-box;
