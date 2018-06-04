@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <div class="jtop-line" style="background: #314C7D; color: white;">
+    <div class="jtop-line jcolor-white jbackground-primary">
         <div class="ui container">
             <div class="ui grid">
                 <div class="eight wide column">
@@ -29,18 +29,30 @@
             </div>
         </div>
     </div>
-    <div class="jtop-line" style="padding-top: 25px;">
+    <!-- <div class="jtop-line" style="padding-top: 25px;"> -->
+    <div class="jtop-line">
         <div class="ui container">
             <div class="ui two column grid middle aligned">
-                <div class="seven wide column">
-                    <img src="img/logo.jpg" style="width: 400px">
+                <div class="seven wide column" style="display: flex; flex-direction: row;">
+                    <div><img src="img/logo.jpg" style="width: 100px"></div>
+                    <div style="display: flex; align-items: center;">
+                        <div style="
+                            font-family: Russo One;
+                            font-size: 1.5rem;
+                            line-height: 2.2rem;
+                            text-transform: uppercase;
+                        ">
+                            <span class="jcolor-teal">Юридическая компания</span><br />
+                            СЕРКОВ И МАКЕРОВ ГРУПП
+                        </div>
+                    </div>
                 </div>
                 <div class="nine wide column">
                     <div class="ui middle aligned grid">
                         <div class="five wide column">
                             <div style="display: flex; align-items: center;">
                                 <div>
-                                    <button class="ui circular inverted red icon button">
+                                    <button class="ui circular teal icon button">
                                         <i class="phone icon"></i>
                                     </button>
                                 </div>
@@ -55,7 +67,7 @@
                         <div class="five wide column">
                             <div style="display: flex; align-items: center;">
                                 <div>
-                                    <button class="ui circular inverted red icon button">
+                                    <button class="ui circular teal icon button">
                                         <i class="clock icon"></i>
                                     </button>
                                 </div>
@@ -68,7 +80,7 @@
                             </div>
                         </div>
                         <div class="six wide column">
-                            <button class="ui button red inverted fluid">
+                            <button class="ui button inverted red fluid">
                                 Бесплатная консультация
                             </button>
                         </div>
@@ -76,70 +88,74 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div style="width: 100%; height: 1px; background: #DFDDDA;"></div>
-    <div class="ui container">
-        <div class="ui secondary pointing large menu red">
-            <a class="active item">
-                Главная
-            </a>
-            <a class="item">
-                О нас
-            </a>
-            <a class="item">
-                Наша практика
-            </a>
-            <a class="item">
-                Коллектив
-            </a>
-            <a class="item">
-                Новости
-            </a>
-            <a class="item">
-                Контакты
-            </a>
-            <!-- <div class="right menu">
-                <div class="item">
-                  <div class="ui icon input">
-                    <input type="text" placeholder="Search...">
-                    <i class="search link icon"></i>
-                  </div>
-                </div>
-            </div> -->
+    </div> 
+    <div class="jheader">
+        <div class="jheader__background">
+            <div
+                class="jheader__background-item"
+                style="background-image: url(img/background1.jpg);"
+            ></div>
+            <div
+                class="jheader__background-item"
+                style="background-image: url(img/background2.jpg);"
+            ></div>
+            <div
+                class="jheader__background-item"
+                style="background-image: url(img/background3.jpg);"
+            ></div>
         </div>
-    </div>
-    <div class="jheader" style="background-image: url(img/background2.jpg);">
-        <div class="jheader__wrap ui container grid">
-            <div class="jheader__left eight wide column">
-                <div class="jheader__label"> 
-                    Юредические права для вас
-                </div>
-                <div class="jheader__title">Ваша защита в надежных руках</div>
-                <div class="jheader__subtitle">
-                    Решаем вашу проблему честно и в кратчайшие сроки, с предоставлением консультаций и личного юриста, который будет держать вас в курсе дел. Иски о взыскании долгов | Споры по договорам | Представление интересов кредитора в суде | Подбор кандидатуры арбитражного управляющего | и другое. Оспаривание нормативно правовых актов | Оспаривание решений решений действий (бездействия) органов власти и судебных приставов. Защита чести и достоинства гражданина | лишение (ограничение) дееспособности | Признание и защита права собственности | Споры по наследованию, дарению.
-                </div>
-                <div>
-                    <button class="ui google plus button">Наши услуги</button>
-                    <button class="ui inverted button">Связаться с нами сейчас</button>
+        <div class="ui container grid">
+            <div class="sixteen wide column">
+                <div class="jheader__menu">
+                    <div class="jmenu jbackground-primary">
+                        <div class="ui secondary inverted fluid menu">
+                            <a class="active item">
+                                Главная
+                            </a>
+                            <a class="item">
+                                О нас
+                            </a>
+                            <a class="item">
+                                Наша практика
+                            </a>
+                            <a class="item">
+                                Коллектив
+                            </a>
+                            <a class="item">
+                                Новости
+                            </a>
+                            <a class="item">
+                                Контакты
+                            </a>
+                            <div class="right menu">
+                                <div class="item">
+                                  <button class="ui button icon teal">
+                                      <i class="search icon"></i>
+                                  </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="two wide column"></div>
-            <div class="jheader__right six wide column">
-                <div class="jheader__space">
-                    <!-- <form class="ui form">
-                        <div class="field">
-                            <div class="ui left icon fluid input focus">
-                              <input type="text" placeholder="Ваше имя...">
-                              <i class="user icon"></i>
-                            </div>
-                        </div>
-                        <div class="field">
-                            <div class="ui left icon fluid input focus">
-                              <input type="text" placeholder="Ваш email...">
-                              <i class="envelope icon"></i>
-                            </div>
-                        </div>
-                    </form> -->
+            <div class="jheader__content">
+                <div class="jheader__left eight wide column">
+                    <div class="jheader__label"> 
+                        Юредические права для вас
+                    </div>
+                    <div class="jheader__title">Ваша защита в надежных руках</div>
+                    <div class="jheader__subtitle">
+                        Решаем вашу проблему честно и в кратчайшие сроки, с предоставлением консультаций и личного юриста, который будет держать вас в курсе дел. Иски о взыскании долгов | Споры по договорам | Представление интересов кредитора в суде | Подбор кандидатуры арбитражного управляющего | и другое. Оспаривание нормативно правовых актов | Оспаривание решений решений действий (бездействия) органов власти и судебных приставов. Защита чести и достоинства гражданина | лишение (ограничение) дееспособности | Признание и защита права собственности | Споры по наследованию, дарению.
+                    </div>
+                    <div>
+                        <button class="ui google plus button">Наши услуги</button>
+                        <button class="ui inverted button">Связаться с нами сейчас</button>
+                    </div>
+                </div>
+                <div class="two wide column"></div>
+                <div class="jheader__right six wide column">
+                    <div class="jheader__space">
+                    </div>
                 </div>
             </div>
         </div>
@@ -150,7 +166,7 @@
 
                 <div class="column">
                     <div class="jheader-info__title">
-                        <i class="check icon red"></i>
+                        <i class="check icon teal"></i>
                         Опыт
                     </div>
                     <div class="jheader-info__content">
@@ -159,7 +175,7 @@
                 </div>
                 <div class="column">
                     <div class="jheader-info__title">
-                        <i class="check icon red"></i>
+                        <i class="check icon teal"></i>
                         Репутация
                     </div>
                     <div class="jheader-info__content">
@@ -168,7 +184,7 @@
                 </div>
                 <div class="column">
                     <div class="jheader-info__title">
-                        <i class="check icon red"></i>
+                        <i class="check icon teal"></i>
                         Практика
                     </div>
                     <div class="jheader-info__content">
@@ -177,7 +193,7 @@
                 </div>
                 <div class="column">
                     <div class="jheader-info__title">
-                        <i class="check icon red"></i>
+                        <i class="check icon teal"></i>
                         Честность
                     </div>
                     <div class="jheader-info__content">
@@ -186,7 +202,7 @@
                 </div>
                 <div class="column">
                     <div class="jheader-info__title">
-                        <i class="check icon red"></i>
+                        <i class="check icon teal"></i>
                         Конфиденциальность
                     </div>
                     <div class="jheader-info__content">
@@ -195,7 +211,7 @@
                 </div>
                 <div class="column">
                     <div class="jheader-info__title">
-                        <i class="check icon red"></i>
+                        <i class="check icon teal"></i>
                         Мобильность
                     </div>
                     <div class="jheader-info__content">
@@ -206,105 +222,107 @@
             </div>
         </div> 
     </div>
-    <div class="ui container jblock" style="padding-top: 190px;">
-        <div class="jblock__wrap" style="padding-bottom: 80px;">
-            <div class="jblock__title" style="margin-bottom: 50px;">
-                Наши услуги
-            </div>
-            <div class="jblock__content">
-                <div class="ui three column grid">
+    <div style="padding-top: 190px; background-image: url(img/pattern.png);">
+        <div class="ui container jblock">
+            <div class="jblock__wrap" style="padding-bottom: 80px;">
+                <div class="jblock__title" style="margin-bottom: 50px;">
+                    Наши услуги
+                </div>
+                <div class="jblock__content">
+                    <div class="ui three column grid">
 
-                    <div class="column" style="padding-top: 35px; padding-bottom: 35px;">
-                        <div class="jservice">
-                            <div class="jservice__icon">
-                                <i class="thumbs up outline icon red" style="font-size: 2.5rem;"></i>
-                            </div>
-                            <div class="jservice__main">
-                                <div class="jservice__title">
-                                    Досудебные разбирательства
+                        <div class="column" style="padding-top: 35px; padding-bottom: 35px;">
+                            <div class="jservice">
+                                <div class="jservice__icon">
+                                    <i class="thumbs up outline icon teal" style="font-size: 2.5rem;"></i>
                                 </div>
-                                <div class="jservice__content">
-                                    Решаем вашу проблему честно и в кратчайшие сроки, с предоставлением консультаций и личного юриста, который будет держать вас в курсе дел.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column" style="padding-top: 35px; padding-bottom: 35px;">
-                        <div class="jservice">
-                            <div class="jservice__icon">
-                                <i class="life ring icon red" style="font-size: 2.5rem;"></i>
-                            </div>
-                            <div class="jservice__main">
-                                <div class="jservice__title">
-                                    Арбитражные споры
-                                </div>
-                                <div class="jservice__content">
-                                    Иски о взыскании долгов | Споры по договорам | Представление интересов кредитора в суде | Подбор кандидатуры арбитражного управляющего | и другое
+                                <div class="jservice__main">
+                                    <div class="jservice__title">
+                                        Досудебные разбирательства
+                                    </div>
+                                    <div class="jservice__content">
+                                        Решаем вашу проблему честно и в кратчайшие сроки, с предоставлением консультаций и личного юриста, который будет держать вас в курсе дел.
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="column" style="padding-top: 35px; padding-bottom: 35px;">
-                        <div class="jservice">
-                            <div class="jservice__icon">
-                                <i class="balance scale icon red" style="font-size: 2.5rem;"></i>
-                            </div>
-                            <div class="jservice__main">
-                                <div class="jservice__title">
-                                    Административные споры
+                        <div class="column" style="padding-top: 35px; padding-bottom: 35px;">
+                            <div class="jservice">
+                                <div class="jservice__icon">
+                                    <i class="life ring icon teal" style="font-size: 2.5rem;"></i>
                                 </div>
-                                <div class="jservice__content">
-                                    Оспаривание нормативно правовых актов | Оспаривание решений решений действий (бездействия) органов власти и судебных приставов
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column" style="padding-top: 35px; padding-bottom: 35px;">
-                        <div class="jservice">
-                            <div class="jservice__icon">
-                                <i class="briefcase icon red" style="font-size: 2.5rem;"></i>
-                            </div>
-                            <div class="jservice__main">
-                                <div class="jservice__title">
-                                    Гражданские споры
-                                </div>
-                                <div class="jservice__content">
-                                    Защита чести и достоинства гражданина | лишение (ограничение) дееспособности | Признание и защита права собственности | Споры по наследованию, дарению
+                                <div class="jservice__main">
+                                    <div class="jservice__title">
+                                        Арбитражные споры
+                                    </div>
+                                    <div class="jservice__content">
+                                        Иски о взыскании долгов | Споры по договорам | Представление интересов кредитора в суде | Подбор кандидатуры арбитражного управляющего | и другое
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="column" style="padding-top: 35px; padding-bottom: 35px;">
-                        <div class="jservice">
-                            <div class="jservice__icon">
-                                <i class="comments outline icon red" style="font-size: 2.5rem;"></i>
-                            </div>
-                            <div class="jservice__main">
-                                <div class="jservice__title">
-                                    Корпоративные споры
+                        <div class="column" style="padding-top: 35px; padding-bottom: 35px;">
+                            <div class="jservice">
+                                <div class="jservice__icon">
+                                    <i class="balance scale icon teal" style="font-size: 2.5rem;"></i>
                                 </div>
-                                <div class="jservice__content">
-                                    Мы осуществляем всестороннее сопровождение деятельности коммерческих компаний, некоммерческих организаций, представительств и дочерних фирм.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column" style="padding-top: 35px; padding-bottom: 35px;">
-                        <div class="jservice">
-                            <div class="jservice__icon">
-                                <i class="chart area icon red" style="font-size: 2.5rem;"></i>
-                            </div>
-                            <div class="jservice__main">
-                                <div class="jservice__title">
-                                    Банкротство юридических лиц
-                                </div>
-                                <div class="jservice__content">
-                                    Банкротство - это единственный законный способ закрыть организацию, у которой есть долги (в том числе и перед бюджетом).
+                                <div class="jservice__main">
+                                    <div class="jservice__title">
+                                        Административные споры
+                                    </div>
+                                    <div class="jservice__content">
+                                        Оспаривание нормативно правовых актов | Оспаривание решений решений действий (бездействия) органов власти и судебных приставов
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="column" style="padding-top: 35px; padding-bottom: 35px;">
+                            <div class="jservice">
+                                <div class="jservice__icon">
+                                    <i class="briefcase icon teal" style="font-size: 2.5rem;"></i>
+                                </div>
+                                <div class="jservice__main">
+                                    <div class="jservice__title">
+                                        Гражданские споры
+                                    </div>
+                                    <div class="jservice__content">
+                                        Защита чести и достоинства гражданина | лишение (ограничение) дееспособности | Признание и защита права собственности | Споры по наследованию, дарению
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column" style="padding-top: 35px; padding-bottom: 35px;">
+                            <div class="jservice">
+                                <div class="jservice__icon">
+                                    <i class="comments outline icon teal" style="font-size: 2.5rem;"></i>
+                                </div>
+                                <div class="jservice__main">
+                                    <div class="jservice__title">
+                                        Корпоративные споры
+                                    </div>
+                                    <div class="jservice__content">
+                                        Мы осуществляем всестороннее сопровождение деятельности коммерческих компаний, некоммерческих организаций, представительств и дочерних фирм.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column" style="padding-top: 35px; padding-bottom: 35px;">
+                            <div class="jservice">
+                                <div class="jservice__icon">
+                                    <i class="chart area icon teal" style="font-size: 2.5rem;"></i>
+                                </div>
+                                <div class="jservice__main">
+                                    <div class="jservice__title">
+                                        Банкротство юридических лиц
+                                    </div>
+                                    <div class="jservice__content">
+                                        Банкротство - это единственный законный способ закрыть организацию, у которой есть долги (в том числе и перед бюджетом).
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>
                 </div>
             </div>
         </div>

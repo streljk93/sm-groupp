@@ -2,11 +2,57 @@
 $border-radius: 3px
 $font-size-base: 1rem
 
-$jcolor-primary: #314C7D
-$jcolor-accent: #db2828
+$jcolor-primary: #29455F
+$jcolor-accent: #D95C5C
 $jcolor-secondary: #FCE38A 
 $jcolor-light: #EAFFD0
-$jcolor-white: #FCFEFE
+$jcolor-white: #FFFFFF
+
+.jcolor-primary
+	color: $jcolor-primary
+.jcolor-accent
+	color: $jcolor-accent
+.jcolor-secondary
+	color: $jcolor-secondary
+.jcolor-light
+	color: $jcolor-light
+.jcolor-white
+	color: $jcolor-white
+
+.jbackground-primary
+	background-color: $jcolor-primary
+.jbackground-accent
+	background-color: $jcolor-accent
+.jbackground-secondary
+	background-color: $jcolor-secondary
+.jbackground-light
+	background-color: $jcolor-light
+.jbackground-white
+	background-color: $jcolor-white
+
+.jcolor-white
+	color: $jcolor-white
+.jcolor-grey
+	color: #CCCCCC
+.jcolor-black
+	color: #1B1C1D
+.jcolor-yellow
+	color: #F2C61F
+.jcolor-teal
+	color: #00B5AD
+.jcolor-red
+	color: #D95C5C
+.jcolor-purple
+	color: #564F8A
+.jcolor-pink
+	color: #D9499A
+.jcolor-orange
+	color: #E07B53
+.jcolor-green
+	color: #5BBD72
+.jcolor-blue
+	color: #3B83C0
+
 
 .jcolor-white
 	color: white
@@ -24,6 +70,7 @@ $jcolor-white: #FCFEFE
 // @import "../blocks/jpage"
 @import "../blocks/jtop-line"
 @import "../blocks/jheader"
+@import "../blocks/jmenu"
 @import "../blocks/jheader-info"
 @import "../blocks/jwrapper-flex"
 @import "../blocks/jpromotion"
@@ -39,7 +86,6 @@ $jcolor-white: #FCFEFE
 @import "../blocks/jcomment"
 // @import "../blocks/jnav/jnav"
 // @import "../blocks/jsidenav/jsidenav"
-// @import "../blocks/jmenu"
 // @import "../blocks/jinput"
 // @import "../blocks/jprice-card"
 // @import "../blocks/jportfolio"
@@ -82,3 +128,7 @@ body textarea:focus:required:invalid
 body input:required:valid,
 body textarea:required:valid
 	color: #666
+
+// FIXED
+.slick-slider .slick-track, .slick-slider .slick-list
+	height: 100% !important
