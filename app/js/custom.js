@@ -6,7 +6,7 @@ $('.jheader__background').slick({
     dots: false,
     adaptiveHeight: true,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 8000,
     infinite: true,
     speed: 1000,
     fade: true,

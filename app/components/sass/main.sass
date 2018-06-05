@@ -8,62 +8,6 @@ $jcolor-secondary: #FCE38A
 $jcolor-light: #EAFFD0
 $jcolor-white: #FFFFFF
 
-.jcolor-primary
-	color: $jcolor-primary
-.jcolor-accent
-	color: $jcolor-accent
-.jcolor-secondary
-	color: $jcolor-secondary
-.jcolor-light
-	color: $jcolor-light
-.jcolor-white
-	color: $jcolor-white
-
-.jbackground-primary
-	background-color: $jcolor-primary
-.jbackground-accent
-	background-color: $jcolor-accent
-.jbackground-secondary
-	background-color: $jcolor-secondary
-.jbackground-light
-	background-color: $jcolor-light
-.jbackground-white
-	background-color: $jcolor-white
-
-.jcolor-white
-	color: $jcolor-white
-.jcolor-grey
-	color: #CCCCCC
-.jcolor-black
-	color: #1B1C1D
-.jcolor-yellow
-	color: #F2C61F
-.jcolor-teal
-	color: #00B5AD
-.jcolor-red
-	color: #D95C5C
-.jcolor-purple
-	color: #564F8A
-.jcolor-pink
-	color: #D9499A
-.jcolor-orange
-	color: #E07B53
-.jcolor-green
-	color: #5BBD72
-.jcolor-blue
-	color: #3B83C0
-
-
-.jcolor-white
-	color: white
-.jcolor-primary
-	color: $jcolor-primary !important
-.jcolor-accent
-	color: $jcolor-accent !important
-
-.jbackground-primary
-	background-color: $jcolor-primary !important
-
 @import "libs"
 @import "fonts"
 
@@ -128,6 +72,74 @@ body textarea:focus:required:invalid
 body input:required:valid,
 body textarea:required:valid
 	color: #666
+
+body
+	margin: 0
+	padding: 0
+	overflow-x: hidden
+	min-width: 320px
+	background: #fff
+	font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif
+	font-size: 14px
+	line-height: 1.4285em
+	color: rgba(0, 0, 0, 0.87)
+	font-smoothing: antialiased
+
+.jcolor-primary
+	color: $jcolor-primary
+.jcolor-accent
+	color: $jcolor-accent
+.jcolor-secondary
+	color: $jcolor-secondary
+.jcolor-light
+	color: $jcolor-light
+.jcolor-white
+	color: $jcolor-white
+
+.jbackground-primary
+	background-color: $jcolor-primary
+.jbackground-accent
+	background-color: $jcolor-accent
+.jbackground-secondary
+	background-color: $jcolor-secondary
+.jbackground-light
+	background-color: $jcolor-light
+.jbackground-white
+	background-color: $jcolor-white
+
+.jcolor-white
+	color: $jcolor-white
+.jcolor-grey
+	color: #CCCCCC
+.jcolor-black
+	color: #1B1C1D
+.jcolor-yellow
+	color: #F2C61F
+.jcolor-teal
+	color: #00B5AD
+.jcolor-red
+	color: #D95C5C
+.jcolor-purple
+	color: #564F8A
+.jcolor-pink
+	color: #D9499A
+.jcolor-orange
+	color: #E07B53
+.jcolor-green
+	color: #5BBD72
+.jcolor-blue
+	color: #3B83C0
+
+
+.jcolor-white
+	color: white
+.jcolor-primary
+	color: $jcolor-primary !important
+.jcolor-accent
+	color: $jcolor-accent !important
+
+.jbackground-primary
+	background-color: $jcolor-primary !important
 
 // FIXED
 .slick-slider .slick-track, .slick-slider .slick-list
