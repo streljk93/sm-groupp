@@ -1,6 +1,7 @@
 .jbackground
     background-size: cover
     background-position: center center
+    background-attachment: fixed
     position: relative
     z-index: 0
     &:before
@@ -25,3 +26,7 @@
         background: $jcolor-primary
         opacity: .7
         z-index: -1
+    &-color-light
+        &:before, &:after
+            background: #FAFAFA
+            opacity: 1

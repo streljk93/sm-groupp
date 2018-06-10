@@ -24619,6 +24619,18 @@ body.pushable > .pusher {
   font-weight: normal;
   font-style: normal; }
 
+.jblock__title, .jcomment__title, .jadvantage__title, .jprocess-working__title {
+  font-family: Russo One;
+  text-transform: uppercase; }
+
+.jblock__title {
+  font-size: 1.8rem;
+  font-size: 1.8rem; }
+
+.jcomment__title, .jadvantage__title, .jprocess-working__title {
+  font-size: 1.2rem;
+  line-height: 1.2rem; }
+
 .jtop-line {
   padding: 10px 0;
   display: -webkit-box;
@@ -24628,8 +24640,8 @@ body.pushable > .pusher {
       -ms-flex-align: center;
           align-items: center; }
 
-.jheader {
-  height: 800px;
+.jheader__wrap {
+  height: 700px;
   overflow: hidden;
   margin-top: 0px !important;
   display: -webkit-box;
@@ -24639,93 +24651,75 @@ body.pushable > .pusher {
       -ms-flex-align: space-between !important;
           align-items: space-between !important;
   color: white;
-  position: relative; }
-  .jheader__background {
+  position: relative;
+  -webkit-box-shadow: inset 0 15px 20px -10px rgba(0, 0, 0, 0.25), inset 0 -15px 20px -10px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0 15px 20px -10px rgba(0, 0, 0, 0.25), inset 0 -15px 20px -10px rgba(0, 0, 0, 0.25); }
+
+.jheader__background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1; }
+  .jheader__background:before {
+    content: '';
+    display: block;
     width: 100%;
     height: 100%;
     position: absolute;
-    z-index: -1; }
-    .jheader__background:before {
-      content: '';
-      display: block;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background: #FFFFFF;
-      opacity: .5;
-      z-index: 1; }
-    .jheader__background:after {
-      content: '';
-      display: block;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background: #29455F;
-      opacity: .6;
-      z-index: 1; }
-  .jheader__background-item {
-    background-size: cover;
-    background-position: center center;
-    width: 100%; }
-  .jheader__content {
+    top: 0;
+    left: 0;
+    background: #FFFFFF;
+    opacity: .5;
+    z-index: 1; }
+  .jheader__background:after {
+    content: '';
+    display: block;
+    width: 100%;
     height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-    padding-bottom: 160px; }
-  .jheader__label {
-    padding: 4px 10px;
-    background: rgba(255, 255, 255, 0.4);
-    display: inline-block;
-    font-weight: bold;
-    margin-bottom: 15px; }
-  .jheader__title {
-    font-family: Russo One;
-    font-size: 4rem;
-    line-height: 4rem; }
-  .jheader__subtitle {
-    margin: 15px 0; }
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #29455F;
+    opacity: .6;
+    z-index: 1; }
 
-.jmenu {
-  padding: 14px 40px;
+.jheader__background-item {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   width: 100%; }
 
-.jheader-info {
-  height: 0px;
-  position: relative;
+.jheader__content {
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
-  .jheader-info__wrap {
-    background: white;
-    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    border-radius: 5px;
-    position: absolute;
-    width: 800px;
-    padding: 50px;
-    text-align: center;
-    top: -155px; }
-  .jheader-info__title {
-    font-size: 1.1rem;
-    font-weight: bold;
-    padding-bottom: 15px; }
-  .jheader-info__content {
-    font-size: .95rem; }
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center; }
+
+.jheader__label {
+  padding: 4px 10px;
+  background: rgba(255, 255, 255, 0.4);
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 15px; }
+
+.jheader__title {
+  font-family: Russo One;
+  font-size: 4rem;
+  line-height: 4rem; }
+
+.jheader__subtitle {
+  margin: 15px 0; }
+
+.jmenu {
+  padding: 14px 40px;
+  width: 100%; }
 
 .jwrapper-flex {
   display: -webkit-box;
@@ -24802,7 +24796,7 @@ body.pushable > .pusher {
   .jpromotion__button {
     border-width: 0;
     border-radius: 0 0 3px 3px;
-    background-color: #FCE38A;
+    background-color: #00B5AD;
     width: 100%;
     font-size: .7rem;
     font-family: Russo One;
@@ -24828,21 +24822,34 @@ body.pushable > .pusher {
   padding-bottom: 80px; }
 
 .jblock__title {
-  font-family: 'Russo One';
-  font-size: 1.8rem;
-  text-transform: uppercase;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .jblock__title:after {
     content: '';
     display: block;
     height: 4px;
     max-width: 150px;
+    width: 100%;
     background: #D95C5C;
     margin-top: 20px; }
+
+.jblock__title-without-line:after {
+  content: none; }
 
 .jbackground {
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
   position: relative;
   z-index: 0; }
   .jbackground:before {
@@ -24867,6 +24874,9 @@ body.pushable > .pusher {
     background: #29455F;
     opacity: .7;
     z-index: -1; }
+  .jbackground-color-light:before, .jbackground-color-light:after {
+    background: #FAFAFA;
+    opacity: 1; }
 
 .jservice {
   display: -webkit-box;
@@ -25027,22 +25037,86 @@ body.pushable > .pusher {
   overflow: hidden;
   white-space: nowrap; }
 
-.jcomment__title {
-  font-size: 2rem;
-  line-height: 2.5rem;
-  font-weight: bold; }
-
 .jcomment__subtitle {
+  font-weight: bold;
+  text-transform: lowercase;
   color: #D95C5C;
-  font-size: 1.5rem;
-  line-height: 2rem;
   padding-top: 8px;
   padding-bottom: 30px; }
 
 .jcomment__message {
+  text-align: justify;
   line-height: 1.8rem; }
   .jcomment__message:after, .jcomment__message:before {
     content: '"'; }
+
+.jadvantage {
+  height: 100%; }
+  .jadvantage:hover .jadvantage__icon {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    color: #D95C5C;
+    top: -50px; }
+  .jadvantage:hover .jadvantage__title {
+    color: #D95C5C; }
+  .jadvantage__wrap {
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 3px;
+    height: 100%;
+    background: #FFFFFF;
+    padding: 20px;
+    height: 100%;
+    position: relative; }
+  .jadvantage__number {
+    position: absolute;
+    top: -5px;
+    left: 1px;
+    font-size: 5rem;
+    line-height: 5rem;
+    font-family: Russo One;
+    color: #F2F4F5; }
+  .jadvantage__icon {
+    text-align: center;
+    font-size: 5rem;
+    line-height: 5rem;
+    color: #00B5AD;
+    position: relative;
+    top: -30px;
+    -webkit-transition: top 1.5s, width 0.5s, height 0.5s, background-color 0.5s, -webkit-transform 0.5s;
+    transition: top 1.5s, width 0.5s, height 0.5s, background-color 0.5s, -webkit-transform 0.5s;
+    transition: top 1.5s, width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
+    transition: top 1.5s, width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s, -webkit-transform 0.5s; }
+  .jadvantage__title {
+    text-align: center;
+    padding: 0 0 30px 0; }
+  .jadvantage__content {
+    text-align: justify; }
+
+.jprocess-working {
+  padding: 15px 0; }
+  .jprocess-working:hover .jprocess-working__number {
+    left: -15px;
+    color: #D95C5C;
+    border: 4px solid #D95C5C; }
+  .jprocess-working:hover .jprocess-working__title {
+    color: #D95C5C; }
+  .jprocess-working__number {
+    border: 4px solid #00B5AD;
+    border-radius: 3px;
+    color: #00B5AD;
+    display: inline-block;
+    padding: 35px;
+    margin: 0 25px 5px 0;
+    font-size: 3rem;
+    font-family: Russo One;
+    float: left;
+    position: relative;
+    left: 0;
+    -webkit-transition: left .5s, color .5s, border .5s;
+    transition: left .5s, color .5s, border .5s; }
+  .jprocess-working__title {
+    padding-bottom: 15px; }
 
 *:focus {
   outline: none; }
@@ -25080,7 +25154,7 @@ body {
   font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
   font-size: 14px;
   line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.84);
   font-smoothing: antialiased; }
 
 .jcolor-primary {
@@ -25090,10 +25164,10 @@ body {
   color: #D95C5C; }
 
 .jcolor-secondary {
-  color: #FCE38A; }
+  color: #00B5AD; }
 
 .jcolor-light {
-  color: #EAFFD0; }
+  color: #F2F4F5; }
 
 .jcolor-white {
   color: #FFFFFF; }
@@ -25105,10 +25179,10 @@ body {
   background-color: #D95C5C; }
 
 .jbackground-secondary {
-  background-color: #FCE38A; }
+  background-color: #00B5AD; }
 
 .jbackground-light {
-  background-color: #EAFFD0; }
+  background-color: #F2F4F5; }
 
 .jbackground-white {
   background-color: #FFFFFF; }
@@ -25146,17 +25220,10 @@ body {
 .jcolor-blue {
   color: #3B83C0; }
 
-.jcolor-white {
-  color: white; }
+.jbox-shadow-inner {
+  -webkit-box-shadow: inset 0 15px 20px -10px rgba(0, 0, 0, 0.25), inset 0 -15px 20px -10px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0 15px 20px -10px rgba(0, 0, 0, 0.25), inset 0 -15px 20px -10px rgba(0, 0, 0, 0.25); }
 
-.jcolor-primary {
-  color: #29455F !important; }
-
-.jcolor-accent {
-  color: #D95C5C !important; }
-
-.jbackground-primary {
-  background-color: #29455F !important; }
-
-.slick-slider .slick-track, .slick-slider .slick-list {
+.slick-slider .slick-track,
+.slick-slider .slick-list {
   height: 100% !important; }

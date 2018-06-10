@@ -3,15 +3,21 @@
 		padding-top: 80px
 		padding-bottom: 80px
 	&__title
-		font-family: 'Russo One'
-		font-size: 1.8rem
-		text-transform: uppercase
+		@extend %title-middle
 		margin-bottom: 60px
+		text-align: center
+		display: flex
+		flex-direction: column
+		align-items: center
 		&:after
 			content: ''
 			display: block
 			height: 4px
 			max-width: 150px
+			width: 100%
 			background: $jcolor-accent
 			margin-top: 20px
+	&__title-without-line
+		&:after
+			content: none
 	&__content
