@@ -24625,11 +24625,11 @@ body.pushable > .pusher {
 
 .jblock__title {
   font-size: 1.8rem;
-  font-size: 1.8rem; }
+  line-height: 2.5rem; }
 
 .jcomment__title, .jadvantage__title, .jprocess-working__title {
   font-size: 1.2rem;
-  line-height: 1.2rem; }
+  line-height: 1.8rem; }
 
 .jtop-line {
   padding: 10px 0;
@@ -24641,7 +24641,6 @@ body.pushable > .pusher {
           align-items: center; }
 
 .jheader__wrap {
-  height: 700px;
   overflow: hidden;
   margin-top: 0px !important;
   display: -webkit-box;
@@ -24690,16 +24689,13 @@ body.pushable > .pusher {
   width: 100%; }
 
 .jheader__content {
-  height: 100%;
+  padding: 147.5px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   text-align: center; }
 
 .jheader__label {

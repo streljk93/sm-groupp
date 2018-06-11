@@ -14,9 +14,11 @@
 
     <div class="jtop-line">
         <div class="ui container">
-            <div class="ui two column grid middle aligned">
+            <div class="ui doubling stackable two column grid middle aligned">
                 <div class="seven wide column" style="display: flex; flex-direction: row;">
-                    <div><img src="img/logo.jpg" style="width: 100px"></div>
+                    <div style="display: flex; align-items: center;">
+                        <img src="img/logo.jpg" style="max-width: 100px; width: 100%;">
+                    </div>
                     <div style="display: flex; align-items: center;">
                         <div style="
                             font-family: Russo One;
@@ -30,9 +32,9 @@
                     </div>
                 </div>
                 <div class="nine wide column">
-                    <div class="ui middle aligned grid">
+                    <div class="ui doubling stackable middle aligned grid">
                         <div class="five wide column">
-                            <div style="display: flex; align-items: center;">
+                            <div style="display: flex; align-items: center; justify-content: center;">
                                 <div>
                                     <button class="ui circular teal icon button">
                                         <i class="phone icon"></i>
@@ -47,7 +49,7 @@
                             </div>
                         </div>
                         <div class="five wide column">
-                            <div style="display: flex; align-items: center;">
+                            <div style="display: flex; align-items: center; justify-content: center;">
                                 <div>
                                     <button class="ui circular teal icon button">
                                         <i class="clock icon"></i>
@@ -73,7 +75,7 @@
     </div>
     <div class="jmenu jbackground-primary">
         <div class="ui container">
-            <div class="ui secondary inverted menu">
+            <div class="ui stackable secondary inverted menu">
                 <a class="active item">
                     Главная
                 </a>
@@ -116,23 +118,21 @@
                     style="background-image: url(img/background3.jpg);"
                 ></div>
             </div>
-            <div class="ui container grid">
-                <div class="sixteen wide column">
-                    <div class="jheader__content">
-                        <div style="width: 100%; max-width: 700px;">
-                            <div class="jheader__title">
-                                Ваша защита в надежных руках.<br /> Наш совет:
-                            </div>
-                            <div class="jheader__subtitle">
-                                При выборе юридической компании, каждому следует руководствоваться следующими, основными мотивами, который будут гарантии в положительном решении Вашей проблемы:
-                                Во-первых, это специализация юридической компании на конкретных юридических вопросах и судебных спорах, что означает, то, что сотрудникам компании известны все тонкости и нюансы дела.
-                                Во-вторых, результативность работы юридической компании, где главным показателем мастерства и профессионализма будет положительная судебная практика. 
-                                Наша компания специализируется на конкретных юридических вопросах и судебных спорах, и этим мы отличаемся от других «общепрактикующих» юридических компаний, поскольку мы знаем все тонкости и нюансы дела, что позволяет нам решить Вашу проблему и найти правильный выход из ситуации любой сложности.
-                            </div>
-                            <div>
-                                <button class="ui google plus button">Наши услуги</button>
-                                <button class="ui inverted button">Связаться с нами сейчас</button>
-                            </div>
+            <div class="ui container">
+                <div class="jheader__content">
+                    <div style="width: 100%; max-width: 700px;">
+                        <div class="jheader__title">
+                            Ваша защита в надежных руках.<br /> Наш совет:
+                        </div>
+                        <div class="jheader__subtitle">
+                            При выборе юридической компании, каждому следует руководствоваться следующими, основными мотивами, который будут гарантии в положительном решении Вашей проблемы:
+                            Во-первых, это специализация юридической компании на конкретных юридических вопросах и судебных спорах, что означает, то, что сотрудникам компании известны все тонкости и нюансы дела.
+                            Во-вторых, результативность работы юридической компании, где главным показателем мастерства и профессионализма будет положительная судебная практика. 
+                            Наша компания специализируется на конкретных юридических вопросах и судебных спорах, и этим мы отличаемся от других «общепрактикующих» юридических компаний, поскольку мы знаем все тонкости и нюансы дела, что позволяет нам решить Вашу проблему и найти правильный выход из ситуации любой сложности.
+                        </div>
+                        <div>
+                            <button class="ui google plus button">Наши услуги</button>
+                            <button class="ui inverted button" style="margin-top: 15px;">Связаться с нами сейчас</button>
                         </div>
                     </div>
                 </div>
@@ -209,124 +209,122 @@
     </div> -->
 
     <div class="jbackground-light">
-        <div class="ui container jblock">
-            <div class="jblock__wrap">
+        <div class="jblock">
+            <div class="ui container jblock__wrap">
                 <div class="jblock__title">
                     ПОЧЕМУ ГРАЖДАНЕ И КОМПАНИИ ВЫБИРАЮТ ИМЕННО НАС?
                 </div>
-                <div class="jblock__content">
-                    <div class="ui three column grid">
+                <div class="ui doubling stackable three column grid jblock__content">
 
-                        <div class="column">
-                            <div class="jadvantage">
-                                <div class="jadvantage__wrap">
-                                    <div class="jadvantage__number">1</div>
-                                    <div class="jadvantage__icon">
-                                       <i class="cubes icon"></i> 
-                                    </div>
-                                    <div class="jadvantage__title">
-                                        Опыт
-                                    </div>
-                                    <div class="jadvantage__content">
-                                        Работаем с 2009 г. Более 8 лет на рынке юридических услуг. В своей работе мы всегда используем материалы сложившейся судебной практики конкретного региона страны, что несомненно является основанием для исключительно положительного разрешения любой поставленной задачи.
-                                    </div>
+                    <div class="column">
+                        <div class="jadvantage">
+                            <div class="jadvantage__wrap">
+                                <div class="jadvantage__number">1</div>
+                                <div class="jadvantage__icon">
+                                   <i class="cubes icon"></i> 
+                                </div>
+                                <div class="jadvantage__title">
+                                    Опыт
+                                </div>
+                                <div class="jadvantage__content">
+                                    Работаем с 2009 г. Более 8 лет на рынке юридических услуг. В своей работе мы всегда используем материалы сложившейся судебной практики конкретного региона страны, что несомненно является основанием для исключительно положительного разрешения любой поставленной задачи.
                                 </div>
                             </div>
                         </div>
-                        <div class="column">
-                            <div class="jadvantage">
-                                <div class="jadvantage__wrap">
-                                    <div class="jadvantage__number">2</div>
-                                    <div class="jadvantage__icon">
-                                       <i class="balance scale icon"></i> 
-                                    </div>
-                                    <div class="jadvantage__title">
-                                        Правильный выбор
-                                    </div>
-                                    <div class="jadvantage__content">
-                                        Для решения каждой задачи нами всегда выбирается наиболее выгодный для нашего клиента путь достижения успеха, который основан на законе и положительной судебной практике по аналогичным делам.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="jadvantage">
-                                <div class="jadvantage__wrap">
-                                    <div class="jadvantage__number">3</div>
-                                    <div class="jadvantage__icon">
-                                       <i class="rocket icon"></i> 
-                                    </div>
-                                    <div class="jadvantage__title">
-                                        Оперативность
-                                    </div>
-                                    <div class="jadvantage__content">
-                                        Специалисты нашей компании всегда приступают к работе в день обращения клиента, работая ежедневно, тем самым достигая успеха в кратчайшие сроки.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="jadvantage">
-                                <div class="jadvantage__wrap">
-                                    <div class="jadvantage__number">4</div>
-                                    <div class="jadvantage__icon">
-                                       <i class="thumbs up outline icon"></i> 
-                                    </div>
-                                    <div class="jadvantage__title">
-                                        Высокое качество
-                                    </div>
-                                    <div class="jadvantage__content">
-                                        В своей работе мы используем все доступные средства и методы, результатом которых непременно является успешное достижение поставленного результата.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="jadvantage">
-                                <div class="jadvantage__wrap">
-                                    <div class="jadvantage__number">5</div>
-                                    <div class="jadvantage__icon">
-                                       <i class="shield alternate icon"></i> 
-                                    </div>
-                                    <div class="jadvantage__title">
-                                        Надежность
-                                    </div>
-                                    <div class="jadvantage__content">
-                                        Компания СЕРКОВ И МАКЕРОВ ГРУПП является стабильной и успешной юридической компанией, объединяющей квалифицированных юристов с многолетней судебной практикой по гражданским и арбитражным делам.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="jadvantage">
-                                <div class="jadvantage__wrap">
-                                    <div class="jadvantage__number">6</div>
-                                    <div class="jadvantage__icon">
-                                       <i class="coffee icon"></i>
-                                    </div>
-                                    <div class="jadvantage__title">
-                                        Удобство
-                                    </div>
-                                    <div class="jadvantage__content">
-                                        Нашим клиентам не надо тратить своё время на суды. Всю работу мы выполняем под ключ по схеме: подача иска в суд - представление интересов в суде - получение решения суда и исполнительного листа - подача исполнительного листа в службу судебных приставов.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
+                    <div class="column">
+                        <div class="jadvantage">
+                            <div class="jadvantage__wrap">
+                                <div class="jadvantage__number">2</div>
+                                <div class="jadvantage__icon">
+                                   <i class="balance scale icon"></i> 
+                                </div>
+                                <div class="jadvantage__title">
+                                    Правильный выбор
+                                </div>
+                                <div class="jadvantage__content">
+                                    Для решения каждой задачи нами всегда выбирается наиболее выгодный для нашего клиента путь достижения успеха, который основан на законе и положительной судебной практике по аналогичным делам.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="jadvantage">
+                            <div class="jadvantage__wrap">
+                                <div class="jadvantage__number">3</div>
+                                <div class="jadvantage__icon">
+                                   <i class="rocket icon"></i> 
+                                </div>
+                                <div class="jadvantage__title">
+                                    Оперативность
+                                </div>
+                                <div class="jadvantage__content">
+                                    Специалисты нашей компании всегда приступают к работе в день обращения клиента, работая ежедневно, тем самым достигая успеха в кратчайшие сроки.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="jadvantage">
+                            <div class="jadvantage__wrap">
+                                <div class="jadvantage__number">4</div>
+                                <div class="jadvantage__icon">
+                                   <i class="thumbs up outline icon"></i> 
+                                </div>
+                                <div class="jadvantage__title">
+                                    Высокое качество
+                                </div>
+                                <div class="jadvantage__content">
+                                    В своей работе мы используем все доступные средства и методы, результатом которых непременно является успешное достижение поставленного результата.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="jadvantage">
+                            <div class="jadvantage__wrap">
+                                <div class="jadvantage__number">5</div>
+                                <div class="jadvantage__icon">
+                                   <i class="shield alternate icon"></i> 
+                                </div>
+                                <div class="jadvantage__title">
+                                    Надежность
+                                </div>
+                                <div class="jadvantage__content">
+                                    Компания СЕРКОВ И МАКЕРОВ ГРУПП является стабильной и успешной юридической компанией, объединяющей квалифицированных юристов с многолетней судебной практикой по гражданским и арбитражным делам.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="jadvantage">
+                            <div class="jadvantage__wrap">
+                                <div class="jadvantage__number">6</div>
+                                <div class="jadvantage__icon">
+                                   <i class="coffee icon"></i>
+                                </div>
+                                <div class="jadvantage__title">
+                                    Удобство
+                                </div>
+                                <div class="jadvantage__content">
+                                    Нашим клиентам не надо тратить своё время на суды. Всю работу мы выполняем под ключ по схеме: подача иска в суд - представление интересов в суде - получение решения суда и исполнительного листа - подача исполнительного листа в службу судебных приставов.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="jbackground jbox-shadow-inner" style="background-image: url(img/background3.jpg); height: 400px;">
-        <div class="ui container jblock" style="height: 100%; color: white;">
-            <div class="jblock__wrap" style="height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
-                <div class="jblock__title jblock__title-without-line" style="display: flex; justify-content: center; font-size: 2.5rem; margin-bottom: 30px;">
+    <div class="jbackground jbox-shadow-inner" style="background-image: url(img/background3.jpg);">
+        <div class="jblock jcolor-white">
+            <div class="ui container jblock__wrap" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+                <div class="jblock__title jblock__title-without-line" style="display: flex; justify-content: center; font-size: 2.5rem; line-height: 3rem; margin-bottom: 30px;">
                     8 Лет опыта в самых сложных ситуациях
                 </div>
-                <div class="jblock__content" style="width: 600px; font-weight: bold;">
+                <div class="jblock__content" style="width: 100%; max-width: 600px; font-weight: bold;">
                     Получив опыт работы и необходимые знания в дорогих консалтинговых фирмах, нами была создана данная юридическая компания. Мы оказываем юридические услуги высокого уровня. Отсутствие издержек крупных юридических компаний делает цену наших услуг более привлекательной.
                     <div>
                         <button class="ui google plus button" style="margin-top: 50px;">
@@ -338,68 +336,66 @@
         </div>
     </div>
 
-    <div class="ui container jblock">
-        <div class="jblock__wrap">
+    <div class="jblock">
+        <div class="ui container jblock__wrap">
             <div class="jblock__title">
                 Процесс работы
             </div>
-            <div class="jblock__content">
-                <div class="ui two column grid">
+            <div class="ui doubling stackable two column grid jblock__content">
 
-                    <div class="column">
-                        <div class="jprocess-working">
-                            <div class="jprocess-working__number">
-                                1
-                            </div>
-                            <div class="jprocess-working__title">
-                                Связь с клиентом
-                            </div>
-                            <div class="jprocess-working__content">
-                                Каждый день наши специалисты готовы бесплатно проконсультировать Вас по любому юридическому вопросу по телефону или по электронной почте. Мы также бесплатно проанализируем ваши документы с целью предоставления Вам развернутой информации, которая будет содержать ответы на главные вопросы: какой результат возможен и как его достичь?
-                            </div>
+                <div class="column">
+                    <div class="jprocess-working">
+                        <div class="jprocess-working__number">
+                            1
+                        </div>
+                        <div class="jprocess-working__title">
+                            Связь с клиентом
+                        </div>
+                        <div class="jprocess-working__content">
+                            Каждый день наши специалисты готовы бесплатно проконсультировать Вас по любому юридическому вопросу по телефону или по электронной почте. Мы также бесплатно проанализируем ваши документы с целью предоставления Вам развернутой информации, которая будет содержать ответы на главные вопросы: какой результат возможен и как его достичь?
                         </div>
                     </div>
-                    <div class="column">
-                        <div class="jprocess-working">
-                            <div class="jprocess-working__number">
-                                2
-                            </div>
-                            <div class="jprocess-working__title">
-                                Анализ проблемы
-                            </div>
-                            <div class="jprocess-working__content">
-                                После предоставления юридической консультации и анализа Ваших документов мы при Вас разрабатываем все возможные пути для максимально выгодного и скорейшего для Вас разрешения поставленной задачи, а также определяем последовательность и методы, с помощью которых мы добьемся успеха.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="jprocess-working">
-                            <div class="jprocess-working__number">
-                                3
-                            </div>
-                            <div class="jprocess-working__title">
-                                Выполнение работ
-                            </div>
-                            <div class="jprocess-working__content">
-                                Процесс работы специалистов нашей компании построен на полной прозрачности и постоянном информировании клиента о статусе процесса. В своей работе мы используем весь спектр доступных нам ресурсов для достижения успеха, в том числе индивидуальных подход с подбором судебной практики по каждому конкретному делу.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="jprocess-working">
-                            <div class="jprocess-working__number">
-                                =)
-                            </div>
-                            <div class="jprocess-working__title">
-                                Проблема решена
-                            </div>
-                            <div class="jprocess-working__content">
-                                После удовлетворения судом ваших исковых требований наши специалисты лично получают решение суда, а также исполнительный лист. После чего мы доставляем Вам указанные документы в удобное для вас время и в удобном для вас месте или передаем исполнительный лист в службу судебных приставов.
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
+                <div class="column">
+                    <div class="jprocess-working">
+                        <div class="jprocess-working__number">
+                            2
+                        </div>
+                        <div class="jprocess-working__title">
+                            Анализ проблемы
+                        </div>
+                        <div class="jprocess-working__content">
+                            После предоставления юридической консультации и анализа Ваших документов мы при Вас разрабатываем все возможные пути для максимально выгодного и скорейшего для Вас разрешения поставленной задачи, а также определяем последовательность и методы, с помощью которых мы добьемся успеха.
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="jprocess-working">
+                        <div class="jprocess-working__number">
+                            3
+                        </div>
+                        <div class="jprocess-working__title">
+                            Выполнение работ
+                        </div>
+                        <div class="jprocess-working__content">
+                            Процесс работы специалистов нашей компании построен на полной прозрачности и постоянном информировании клиента о статусе процесса. В своей работе мы используем весь спектр доступных нам ресурсов для достижения успеха, в том числе индивидуальных подход с подбором судебной практики по каждому конкретному делу.
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="jprocess-working">
+                        <div class="jprocess-working__number">
+                            =)
+                        </div>
+                        <div class="jprocess-working__title">
+                            Проблема решена
+                        </div>
+                        <div class="jprocess-working__content">
+                            После удовлетворения судом ваших исковых требований наши специалисты лично получают решение суда, а также исполнительный лист. После чего мы доставляем Вам указанные документы в удобное для вас время и в удобном для вас месте или передаем исполнительный лист в службу судебных приставов.
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -407,8 +403,8 @@
     <div class="jbackground-light">
         <div class="ui container jblock">
             <div class="jblock__wrap" style="padding-bottom: 52px;">
-                <div class="jblock__content" style="display: flex; justify-content: center;">
-                    <div class="ui statistics">
+                <div class="jblock__content">
+                    <div class="ui statistics container" style="display: flex; justify-content: center; padding: 0 5px;">
                         <div class="statistic">
                             <div class="value">
                                 <i class="cubes icon jcolor-secondary"></i>
@@ -465,10 +461,10 @@
             <div class="jblock__title">
                 Наши эксперты
             </div>
-            <div class="ui four column grid jblock__content">
+            <div class="ui doubling stackable four column grid jblock__content">
 
                 <div class="column">
-                    <div class="ui card">
+                    <div class="ui card fluid">
                         <div class="image">
                             <img src="img/1man.jpg" />
                         </div>
@@ -481,7 +477,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <div class="ui card">
+                    <div class="ui card fluid">
                         <div class="image">
                             <img src="img/2man.jpg" />
                         </div>
@@ -494,7 +490,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <div class="ui card">
+                    <div class="ui card fluid">
                         <div class="image">
                             <img src="img/3man.jpg" />
                         </div>
@@ -507,7 +503,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <div class="ui card">
+                    <div class="ui card fluid">
                         <div class="image">
                             <img src="img/4man.jpg" />
                         </div>
@@ -525,12 +521,12 @@
     </div>
 
     <div class="jbackground-light">
-        <div class="ui container jblock">
-            <div class="jblock__wrap">
+        <div class="jblock">
+            <div class="ui container jblock__wrap">
                 <div class="jblock__title">
                     Новости
                 </div>
-                <div class="ui three column grid jblock__content">
+                <div class="ui doubling stackable three column grid jblock__content">
 
                     <div class="column">
                         <div class="ui fluid card">
@@ -622,12 +618,12 @@
         </div>
     </div>
 
-    <div class="ui container jblock">
-        <div class="jblock__wrap">
+    <div class="jblock">
+        <div class="ui container jblock__wrap">
             <div class="jblock__title">
                 Отзывы
             </div>
-            <div class="ui three column grid jblock__content">
+            <div class="ui doubling stackable three column grid jblock__content">
                 <div class="four wide column">
                     <div class="ui fluid card">
                         <div class="image">
@@ -660,18 +656,17 @@
         </div>
     </div>
 
-    <div>
+    <div class="jbackground" style="background-image: url(img/background4.jpg);">
         <div class="ui container" style="position: relative; height: 0px;">
             <div style="position: absolute; top: 0; z-index: 2; width: 100%">
-                <div class="ui two column grid" style="height: 514px;">
-                    <div class="column" style="display: flex; align-items: center; justify-content: flex-end; color: white;">
-                        <i class="shield alternate icon" style="font-size: 6rem; padding-top: 40px;">
-                        </i>
-                        <div style="font-family: Russo One; font-size: 3rem; line-height: 3.5rem; padding: 30px;">
-                            Юредическая компания СЕРКОВ И МАКЕРОВ ГРУПП
+                <div class="ui doubling stackable two column grid" style="height: 514px;">
+                    <div class="column" style="display: flex; align-items: center; justify-content: center; color: white; height: 500px; text-align: center;">
+                        <div style="font-family: Russo One; font-size: 2rem; line-height: 2.5rem; padding: 30px;">
+                            Юридическая компания<br />
+                            <div class="jcolor-secondary">СЕРКОВ И <br /> МАКЕРОВ ГРУПП</div>
                         </div>
                     </div>
-                    <div class="column" style="display: flex; align-items: center;">
+                    <div class="column" style="display: flex; align-items: center; height: 500px;">
                         <div style="padding-left: 30px; width: 100%;">
                             <div style="font-size: 1.8rem; line-height: 1.8rem; text-transform: uppercase; font-family: Russo One; padding-bottom: 40px;">
                                 Бесплатная консультация
@@ -703,34 +698,10 @@
                 </div>
             </div>
         </div>
-        <div class="ui two column grid" style="height: 500px;">
-            <div class="column jbackground" style="background-image: url(img/background4.jpg);">
+        <div class="ui doubling stackable two column grid container">
+            <div class="column" style="height: 500px;">
             </div>
-            <div class="column" style="background: #F3F5FE;">
-            </div>
-        </div>
-    </div>
-
-    <div class="jblock">
-        <div class="ui container jblock__wrap" style="padding-top: 55px; padding-bottom: 40px;">
-            <div class="jblock__content">
-                <div class="ui five column grid middle aligned">
-                    <div class="column" style="display: flex;">
-                        <img src="img/8.png" class="ui image" />
-                    </div>
-                    <div class="column" style="display: flex;">
-                        <img src="img/6.png" class="ui image" />
-                    </div>
-                    <div class="column" style="display: flex;">
-                        <img src="img/1.jpg" class="ui image" />
-                    </div>
-                    <div class="column" style="display: flex;">
-                        <img src="img/4.png" class="ui image" />
-                    </div>
-                    <div class="column" style="display: flex;">
-                        <img src="img/7.png" class="ui image" />
-                    </div>
-                </div>
+            <div class="column" style="background: #F3F5FE; height: 500px;">
             </div>
         </div>
     </div>
@@ -744,17 +715,13 @@
       </iframe>  
     </div>
 
-    <div class="jblock jbackground-primary jcolor-white">
-        <div class="ui container jblock__wrap">
-            <div class="jblock__content" style="font-size: 2rem; font-family: Russo One; text-align: center;">
-                Здесь будет контактная информация
+    <div class="jbackground-primary jcolor-white">
+        <div class="jblock">
+            <div class="ui container jblock__wrap">
+                <div class="jblock__content">
+
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="jtop-line" style="background: #2C4678; color: white;">
-        <div class="ui container">
-            <i class="map marker alternate icon"></i> ул. Преображенская,  дом 9 &nbsp; | &nbsp;
-            <i class="envelope icon"></i> sm@smgroupp.ru
         </div>
     </div>
 
