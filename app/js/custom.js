@@ -10,4 +10,7 @@ $('.jheader__background').slick({
     infinite: true,
     speed: 1000,
     fade: true,
-})
+});
+
+$('.ui.sidebar').sidebar('attach events', '.item-open-close');
+$('.ui.sticky').sticky();

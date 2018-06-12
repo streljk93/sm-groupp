@@ -24619,9 +24619,13 @@ body.pushable > .pusher {
   font-weight: normal;
   font-style: normal; }
 
-.jblock__title, .jcomment__title, .jadvantage__title, .jprocess-working__title {
+.jheader__title, .jblock__title, .jcomment__title, .jadvantage__title, .jprocess-working__title {
   font-family: Russo One;
   text-transform: uppercase; }
+
+.jheader__title {
+  font-size: 2.5rem;
+  line-height: 3rem; }
 
 .jblock__title {
   font-size: 1.8rem;
@@ -24630,6 +24634,56 @@ body.pushable > .pusher {
 .jcomment__title, .jadvantage__title, .jprocess-working__title {
   font-size: 1.2rem;
   line-height: 1.8rem; }
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  [class*="mobile hidden"],
+  [class*="tablet only"]:not(.mobile),
+  [class*="computer only"]:not(.mobile),
+  [class*="large screen only"]:not(.mobile),
+  [class*="widescreen only"]:not(.mobile),
+  [class*="or lower hidden"] {
+    display: none !important; } }
+
+/* Tablet / iPad Portrait */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  [class*="mobile only"]:not(.tablet),
+  [class*="tablet hidden"],
+  [class*="computer only"]:not(.tablet),
+  [class*="large screen only"]:not(.tablet),
+  [class*="widescreen only"]:not(.tablet),
+  [class*="or lower hidden"]:not(.mobile) {
+    display: none !important; } }
+
+/* Computer / Desktop / iPad Landscape */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  [class*="mobile only"]:not(.computer),
+  [class*="tablet only"]:not(.computer),
+  [class*="computer hidden"],
+  [class*="large screen only"]:not(.computer),
+  [class*="widescreen only"]:not(.computer),
+  [class*="or lower hidden"]:not(.tablet):not(.mobile) {
+    display: none !important; } }
+
+/* Large Monitor */
+@media only screen and (min-width: 1200px) and (max-width: 1919px) {
+  [class*="mobile only"]:not([class*="large screen"]),
+  [class*="tablet only"]:not([class*="large screen"]),
+  [class*="computer only"]:not([class*="large screen"]),
+  [class*="large screen hidden"],
+  [class*="widescreen only"]:not([class*="large screen"]),
+  [class*="or lower hidden"]:not(.computer):not(.tablet):not(.mobile) {
+    display: none !important; } }
+
+/* Widescreen Monitor */
+@media only screen and (min-width: 1920px) {
+  [class*="mobile only"]:not([class*="widescreen"]),
+  [class*="tablet only"]:not([class*="widescreen"]),
+  [class*="computer only"]:not([class*="widescreen"]),
+  [class*="large screen only"]:not([class*="widescreen"]),
+  [class*="widescreen hidden"],
+  [class*="widescreen or lower hidden"] {
+    display: none !important; } }
 
 .jtop-line {
   padding: 10px 0;
@@ -24689,7 +24743,7 @@ body.pushable > .pusher {
   width: 100%; }
 
 .jheader__content {
-  padding: 147.5px 0;
+  padding: 80px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24705,16 +24759,14 @@ body.pushable > .pusher {
   font-weight: bold;
   margin-bottom: 15px; }
 
-.jheader__title {
-  font-family: Russo One;
-  font-size: 4rem;
-  line-height: 4rem; }
-
 .jheader__subtitle {
-  margin: 15px 0; }
+  margin: 15px 0;
+  text-align: justify; }
 
 .jmenu {
-  padding: 14px 40px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 14px 0;
   width: 100%; }
 
 .jwrapper-flex {

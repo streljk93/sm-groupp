@@ -12,81 +12,116 @@
 </head>
 <body>
 
-    <div class="jtop-line">
+    <div class="jtop-line" style="display: flex; justify-content: center;">
         <div class="ui container">
             <div class="ui doubling stackable two column grid middle aligned">
-                <div class="seven wide column" style="display: flex; flex-direction: row;">
-                    <div style="display: flex; align-items: center;">
-                        <img src="img/logo.jpg" style="max-width: 100px; width: 100%;">
-                    </div>
-                    <div style="display: flex; align-items: center;">
-                        <div style="
-                            font-family: Russo One;
-                            font-size: 1.5rem;
-                            line-height: 2.2rem;
-                            text-transform: uppercase;
-                        ">
-                            <span class="jcolor-secondary">Юридическая компания</span><br />
-                            СЕРКОВ И МАКЕРОВ ГРУПП
+                <div class="seven wide column">
+                    <div class="ui doubling stackable two column grid">
+                        <div class="four wide column">
+                            <div style="display: flex; align-items: center; justify-content: center;">
+                                <img src="img/logo.jpg" style="max-width: 100px; width: 100%;">
+                            </div>
+                        </div>
+                        <div class="twelve wide column middle aligned">
+                            <div style="display: flex; align-items: center; justify-content: center; text-align: center;">
+                                <div style="
+                                    font-family: Russo One;
+                                    font-size: 1.5rem;
+                                    line-height: 2.2rem;
+                                    text-transform: uppercase;
+                                ">
+                                    <span class="jcolor-secondary">Юридическая компания</span><br />
+                                    СЕРКОВ И МАКЕРОВ ГРУПП
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="nine wide column">
-                    <div class="ui doubling stackable middle aligned grid">
-                        <div class="five wide column">
-                            <div style="display: flex; align-items: center; justify-content: center;">
-                                <div>
-                                    <button class="ui circular teal icon button">
-                                        <i class="phone icon"></i>
-                                    </button>
+                <div class="nine wide column mobile hidden">
+                    <div class="ui doubling stackable two column grid">
+                        <div class="ten wide column">
+                            <div class="ui two column grid">
+                                <div class="column" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                    <div style="height: 20px;">
+                                        <button class="ui circular teal icon button">
+                                            <i class="phone icon"></i>
+                                        </button>
+                                    </div>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <div>
+                                        +7 (4722) 333-711<br />
+                                        +7 (908)-782-15-27<br />
+                                        +7 (920)-555-76-67
+                                    </div>
                                 </div>
-                                &nbsp;&nbsp;&nbsp;
-                                <div>
-                                    +7 (4722) 333-711<br />
-                                    +7 (908)-782-15-27<br />
-                                    +7 (920)-555-76-67
+                                <div class="column" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                    <div style="height: 20px;">
+                                        <button class="ui circular teal icon button">
+                                            <i class="clock icon"></i>
+                                        </button>
+                                    </div>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <div>
+                                        Пн - Пт 9.00 - 17.00<br />
+                                        Сб 10.00 - 14.00<br />
+                                        Вс : Закрыто
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="five wide column">
-                            <div style="display: flex; align-items: center; justify-content: center;">
-                                <div>
-                                    <button class="ui circular teal icon button">
-                                        <i class="clock icon"></i>
-                                    </button>
-                                </div>
-                                &nbsp;&nbsp;&nbsp;
-                                <div>
-                                    Пн - Пт 9.00 - 17.00<br />
-                                    Сб 10.00 - 14.00<br />
-                                    Вс : Закрыто
-                                </div>
-                            </div>
-                        </div>
-                        <div class="six wide column">
-                            <button class="ui button inverted red fluid">
-                                Бесплатная консультация
-                            </button>
+                        <div class="six wide column" style="display: flex; align-items: center;">
+                           <div class="six wide column" style="flex-basis: 100%;">
+                                <button class="ui button inverted red fluid">
+                                    Бесплатная консультация
+                                </button>
+                            </div> 
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="jmenu jbackground-primary">
+    <div class="ui sticky jmenu jbackground-primary">
         <div class="ui container">
-            <div class="ui stackable secondary inverted menu">
-                <a class="active item">
-                    Главная
+
+            <div class="ui secondary inverted menu mobile only" style="margin: 0;">
+                <button class="ui button item item-open-close">
+                    <i class="bars icon"></i>
+                    МЕНЮ
+                </button>
+                <div class="right menu">
+                    <button class="ui button teal fluid">
+                        консультация
+                    </button>
+                </div>
+            </div>
+            <div class="ui left inline vertical sidebar huge menu">
+                <a class="item item-open-close">
+                    О нас
                 </a>
-                <a class="item">
+                <a class="item item-open-close">
+                    Услуги
+                </a>
+                <a class="item item-open-close">
+                    Наша практика
+                </a>
+                <a class="item item-open-close">
+                    Новости
+                </a>
+                <a class="item item-open-close">
+                    Контакты
+                </a>
+            </div>
+
+            <div class="ui stackable secondary inverted menu mobile hidden" style="margin: 0;">
+                <a class="item active">
                     О нас
                 </a>
                 <a class="item">
-                    Наша практика
+                    Услуги
                 </a>
                 <a class="item">
-                    Коллектив
+                    Наша практика
                 </a>
                 <a class="item">
                     Новости
@@ -667,7 +702,7 @@
                         </div>
                     </div>
                     <div class="column" style="display: flex; align-items: center; height: 500px;">
-                        <div style="padding-left: 30px; width: 100%;">
+                        <div style="width: 100%;">
                             <div style="font-size: 1.8rem; line-height: 1.8rem; text-transform: uppercase; font-family: Russo One; padding-bottom: 40px;">
                                 Бесплатная консультация
                             </div>
