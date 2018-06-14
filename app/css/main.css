@@ -24882,6 +24882,11 @@ body.pushable > .pusher {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  .jblock__title_align-left {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    text-align: left; }
   .jblock__title:after {
     content: '';
     display: block;
@@ -25165,6 +25170,14 @@ body.pushable > .pusher {
     transition: left .5s, color .5s, border .5s; }
   .jprocess-working__title {
     padding-bottom: 15px; }
+
+.jslick-item {
+  margin: 2px 15px;
+  cursor: -webkit-grab;
+  cursor: grab; }
+  .jslick-item_column-one {
+    margin: 0px;
+    padding: 2px; }
 
 *:focus {
   outline: none; }
