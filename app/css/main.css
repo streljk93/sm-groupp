@@ -24851,7 +24851,7 @@ body.pushable > .pusher {
     text-transform: uppercase; }
 
 .jcounter {
-  font-size: 1.12rem;
+  font-size: 1.1rem;
   font-family: Russo One;
   padding: 15px;
   width: 100%;
@@ -25207,7 +25207,7 @@ body textarea:required:valid {
   color: #666; }
 
 .ui .menu, .ui .button, .ui .card, .ui .list {
-  font-size: 1.12rem; }
+  font-size: 1.1rem; }
 
 body {
   margin: 0;
@@ -25216,7 +25216,7 @@ body {
   min-width: 320px;
   background: #fff;
   font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
-  font-size: 1.12rem;
+  font-size: 1.1rem;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.84);
   font-smoothing: antialiased; }
@@ -25290,7 +25290,7 @@ body {
 
 .jclear-text {
   font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
-  font-size: 1.12rem;
+  font-size: 1.1rem;
   line-height: 1.4285em;
   text-transform: initial; }
 
