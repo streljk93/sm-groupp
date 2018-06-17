@@ -48,7 +48,7 @@ gulp.task('watch', ['browser-sync', 'sass', 'jsLib'], function() {
 	gulp.watch('app/js/components/**/*.js', ['jsLib']);
 	gulp.watch('app/js/shared/**/*.js', ['jsLib']);
 
-	gulp.watch('app/index.html', browserSync.reload);
+	gulp.watch('app/*.html', browserSync.reload);
 	gulp.watch('app/js/**/*.js', browserSync.reload);
 });
 
