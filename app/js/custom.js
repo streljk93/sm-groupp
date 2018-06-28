@@ -90,3 +90,5 @@ $('.slick-comment').slick({
 
 $('.ui.sidebar').sidebar('attach events', '.item-open-close');
 $('.ui.sticky').sticky();
+
+$('.accordion').accordion();

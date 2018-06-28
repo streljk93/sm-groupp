@@ -39,7 +39,7 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 29624,
+				"buffer_size": 29656,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -48,7 +48,7 @@
 			"file": "app/aboutus.html",
 			"settings":
 			{
-				"buffer_size": 16746,
+				"buffer_size": 16535,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -57,7 +57,7 @@
 			"file": "app/services.html",
 			"settings":
 			{
-				"buffer_size": 22518,
+				"buffer_size": 22307,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -66,7 +66,35 @@
 			"file": "app/price.html",
 			"settings":
 			{
-				"buffer_size": 21904,
+				"buffer_size": 24657,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/jk/public_html/index.html",
+			"settings":
+			{
+				"buffer_size": 269,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/jk/public_html/index.js",
+			"settings":
+			{
+				"buffer_size": 2598,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "// Slomux - реализация Flux, в которой, как следуе"
+			}
+		},
+		{
+			"file": "app/js/custom.js",
+			"settings":
+			{
+				"buffer_size": 3715,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -75,7 +103,7 @@
 			"file": "app/article.html",
 			"settings":
 			{
-				"buffer_size": 14756,
+				"buffer_size": 14545,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -84,7 +112,7 @@
 			"file": "app/news.html",
 			"settings":
 			{
-				"buffer_size": 19297,
+				"buffer_size": 19086,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -93,7 +121,7 @@
 			"file": "app/contacts.html",
 			"settings":
 			{
-				"buffer_size": 12469,
+				"buffer_size": 12258,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -103,23 +131,6 @@
 			"settings":
 			{
 				"buffer_size": 1120,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\n  <meta name=\"description\" content=\"\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <meta charset=\"utf-8\">\n\n  <title>SM GROUPP</title>\n\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"css/main.css\">\n</head>\n<body>\n\n    <!-- <div class=\"jtop-line jcolor-white jbackground-primary\">\n        <div class=\"ui container\">\n            <div class=\"ui grid\">\n                <div class=\"eight wide column\">\n                    <i class=\"map marker alternate icon\"></i> ул. Преображенская,  дом 9 &nbsp; | &nbsp;\n                    <i class=\"envelope icon\"></i> sm@smgroupp.ru\n                </div>\n                <div class=\"eight wide column right aligned\">\n                    Найти нас в: &nbsp;&nbsp;\n                    <i class=\"facebook icon\"></i>\n                    <i class=\"twitter icon\"></i>\n                    <i class=\"linkedin icon\"></i>\n                    <i class=\"google plus icon\"></i>\n                </div>\n            </div>\n        </div>\n    </div> -->\n    <div class=\"jtop-line\">\n        <div class=\"ui container\">\n            <div class=\"ui two column grid middle aligned\">\n                <div class=\"seven wide column\" style=\"display: flex; flex-direction: row;\">\n                    <div><img src=\"img/logo.jpg\" style=\"width: 100px\"></div>\n                    <div style=\"display: flex; align-items: center;\">\n                        <div style=\"\n                            font-family: Russo One;\n                            font-size: 1.5rem;\n                            line-height: 2.2rem;\n                            text-transform: uppercase;\n                        \">\n                            <span class=\"jcolor-teal\">Юридическая компания</span><br />\n                            СЕРКОВ И МАКЕРОВ ГРУПП\n                        </div>\n                    </div>\n                </div>\n                <div class=\"nine wide column\">\n                    <div class=\"ui middle aligned grid\">\n                        <div class=\"five wide column\">\n                            <div style=\"display: flex; align-items: center;\">\n                                <div>\n                                    <button class=\"ui circular teal icon button\">\n                                        <i class=\"phone icon\"></i>\n                                    </button>\n                                </div>\n                                &nbsp;&nbsp;&nbsp;\n                                <div>\n                                    +7 (4722) 333-711<br />\n                                    +7 (908)-782-15-27<br />\n                                    +7 (920)-555-76-67\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"five wide column\">\n                            <div style=\"display: flex; align-items: center;\">\n                                <div>\n                                    <button class=\"ui circular teal icon button\">\n                                        <i class=\"clock icon\"></i>\n                                    </button>\n                                </div>\n                                &nbsp;&nbsp;&nbsp;\n                                <div>\n                                    Пн - Пт 9.00 - 17.00<br />\n                                    Сб 10.00 - 14.00<br />\n                                    Вс : Закрыто\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"six wide column\">\n                            <button class=\"ui button inverted red fluid\">\n                                Бесплатная консультация\n                            </button>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"jmenu jbackground-primary\">\n        <div class=\"ui container\">\n            <div class=\"ui secondary inverted menu\">\n                <a class=\"active item\">\n                    Главная\n                </a>\n                <a class=\"item\">\n                    О нас\n                </a>\n                <a class=\"item\">\n                    Наша практика\n                </a>\n                <a class=\"item\">\n                    Коллектив\n                </a>\n                <a class=\"item\">\n                    Новости\n                </a>\n                <a class=\"item\">\n                    Контакты\n                </a>\n                <div class=\"right menu\">\n                    <button class=\"ui button icon teal\">\n                      <i class=\"search icon\"></i>\n                    </button>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"jheader\">\n        <div class=\"jheader__background\">\n            <div\n                class=\"jheader__background-item\"\n                style=\"background-image: url(img/background1.jpg);\"\n            ></div>\n            <div\n                class=\"jheader__background-item\"\n                style=\"background-image: url(img/background2.jpg);\"\n            ></div>\n            <div\n                class=\"jheader__background-item\"\n                style=\"background-image: url(img/background3.jpg);\"\n            ></div>\n        </div>\n        <div class=\"ui container grid\">\n            <div class=\"sixteen wide column\">\n                <div class=\"jheader__content\">\n                    <div style=\"width: 100%; max-width: 700px;\">\n                        <div class=\"jheader__title\">\n                            Ваша защита в надежных руках.<br /> Наш совет:\n                        </div>\n                        <div class=\"jheader__subtitle\">\n                            При выборе юридической компании, каждому следует руководствоваться следующими, основными мотивами, который будут гарантии в положительном решении Вашей проблемы:\n                            Во-первых, это специализация юридической компании на конкретных юридических вопросах и судебных спорах, что означает, то, что сотрудникам компании известны все тонкости и нюансы дела.\n                            Во-вторых, результативность работы юридической компании, где главным показателем мастерства и профессионализма будет положительная судебная практика. \n                            Наша компания специализируется на конкретных юридических вопросах и судебных спорах, и этим мы отличаемся от других «общепрактикующих» юридических компаний, поскольку мы знаем все тонкости и нюансы дела, что позволяет нам решить Вашу проблему и найти правильный выход из ситуации любой сложности.\n                        </div>\n                        <div>\n                            <button class=\"ui google plus button\">Наши услуги</button>\n                            <button class=\"ui inverted button\">Связаться с нами сейчас</button>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"jheader-info\">\n        <div class=\"jheader-info__wrap\">\n            <div class=\"ui three column grid\">\n\n                <div class=\"column\">\n                    <div class=\"jheader-info__title\">\n                        <i class=\"check icon teal\"></i>\n                        Опыт\n                    </div>\n                    <div class=\"jheader-info__content\">\n                        Работаем с 2009 г. Более 8 лет на рынке юридических услуг\n                    </div>\n                </div>\n                <div class=\"column\">\n                    <div class=\"jheader-info__title\">\n                        <i class=\"check icon teal\"></i>\n                        Репутация\n                    </div>\n                    <div class=\"jheader-info__content\">\n                        Мы заслужили положительную репутацию среди клиентов за годы работы \n                    </div>\n                </div>\n                <div class=\"column\">\n                    <div class=\"jheader-info__title\">\n                        <i class=\"check icon teal\"></i>\n                        Практика\n                    </div>\n                    <div class=\"jheader-info__content\">\n                        Мы выиграли более 1000 дел по самым разным направлениям за время работы компании\n                    </div>\n                </div>\n                <div class=\"column\">\n                    <div class=\"jheader-info__title\">\n                        <i class=\"check icon teal\"></i>\n                        Честность\n                    </div>\n                    <div class=\"jheader-info__content\">\n                        Мы не строим иллюзий, а даем полное заключение о судебных перспективах вашего дела \n                    </div>\n                </div>\n                <div class=\"column\">\n                    <div class=\"jheader-info__title\">\n                        <i class=\"check icon teal\"></i>\n                        Конфиденциальность\n                    </div>\n                    <div class=\"jheader-info__content\">\n                        Мы гарантируем вам полную конфиденциальность вашего запроса и данных\n                    </div>\n                </div>\n                <div class=\"column\">\n                    <div class=\"jheader-info__title\">\n                        <i class=\"check icon teal\"></i>\n                        Мобильность\n                    </div>\n                    <div class=\"jheader-info__content\">\n                        Специалисты готовы к выезду по Белгородской области и за её пределы по договоренности\n                    </div>\n                </div>\n\n            </div>\n        </div> \n    </div>\n    <div style=\"padding-top: 190px; background-image: url(img/pattern1.png);\">\n        <div class=\"ui container jblock\">\n            <div class=\"jblock__wrap\" style=\"padding-bottom: 80px;\">\n                <div class=\"jblock__title\" style=\"margin-bottom: 50px;\">\n                    Наши услуги\n                </div>\n                <div class=\"jblock__content\">\n                    <div class=\"ui three column grid\">\n\n                        <div class=\"column\" style=\"padding-top: 35px; padding-bottom: 35px;\">\n                            <div class=\"jservice\">\n                                <div class=\"jservice__icon\">\n                                    <i class=\"thumbs up outline icon teal\" style=\"font-size: 2.5rem;\"></i>\n                                </div>\n                                <div class=\"jservice__main\">\n                                    <div class=\"jservice__title\">\n                                        Досудебные разбирательства\n                                    </div>\n                                    <div class=\"jservice__content\">\n                                        Решаем вашу проблему честно и в кратчайшие сроки, с предоставлением консультаций и личного юриста, который будет держать вас в курсе дел.\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"column\" style=\"padding-top: 35px; padding-bottom: 35px;\">\n                            <div class=\"jservice\">\n                                <div class=\"jservice__icon\">\n                                    <i class=\"life ring icon teal\" style=\"font-size: 2.5rem;\"></i>\n                                </div>\n                                <div class=\"jservice__main\">\n                                    <div class=\"jservice__title\">\n                                        Арбитражные споры\n                                    </div>\n                                    <div class=\"jservice__content\">\n                                        Иски о взыскании долгов | Споры по договорам | Представление интересов кредитора в суде | Подбор кандидатуры арбитражного управляющего | и другое\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"column\" style=\"padding-top: 35px; padding-bottom: 35px;\">\n                            <div class=\"jservice\">\n                                <div class=\"jservice__icon\">\n                                    <i class=\"balance scale icon teal\" style=\"font-size: 2.5rem;\"></i>\n                                </div>\n                                <div class=\"jservice__main\">\n                                    <div class=\"jservice__title\">\n                                        Административные споры\n                                    </div>\n                                    <div class=\"jservice__content\">\n                                        Оспаривание нормативно правовых актов | Оспаривание решений решений действий (бездействия) органов власти и судебных приставов\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"column\" style=\"padding-top: 35px; padding-bottom: 35px;\">\n                            <div class=\"jservice\">\n                                <div class=\"jservice__icon\">\n                                    <i class=\"briefcase icon teal\" style=\"font-size: 2.5rem;\"></i>\n                                </div>\n                                <div class=\"jservice__main\">\n                                    <div class=\"jservice__title\">\n                                        Гражданские споры\n                                    </div>\n                                    <div class=\"jservice__content\">\n                                        Защита чести и достоинства гражданина | лишение (ограничение) дееспособности | Признание и защита права собственности | Споры по наследованию, дарению\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"column\" style=\"padding-top: 35px; padding-bottom: 35px;\">\n                            <div class=\"jservice\">\n                                <div class=\"jservice__icon\">\n                                    <i class=\"comments outline icon teal\" style=\"font-size: 2.5rem;\"></i>\n                                </div>\n                                <div class=\"jservice__main\">\n                                    <div class=\"jservice__title\">\n                                        Корпоративные споры\n                                    </div>\n                                    <div class=\"jservice__content\">\n                                        Мы осуществляем всестороннее сопровождение деятельности коммерческих компаний, некоммерческих организаций, представительств и дочерних фирм.\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"column\" style=\"padding-top: 35px; padding-bottom: 35px;\">\n                            <div class=\"jservice\">\n                                <div class=\"jservice__icon\">\n                                    <i class=\"chart area icon teal\" style=\"font-size: 2.5rem;\"></i>\n                                </div>\n                                <div class=\"jservice__main\">\n                                    <div class=\"jservice__title\">\n                                        Банкротство юридических лиц\n                                    </div>\n                                    <div class=\"jservice__content\">\n                                        Банкротство - это единственный законный способ закрыть организацию, у которой есть долги (в том числе и перед бюджетом).\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"jbackground\" style=\"background-image: url(img/background3.jpg); height: 400px\">\n        <div class=\"ui container jblock\" style=\"height: 100%; color: white;\">\n            <div class=\"jblock__wrap\" style=\"height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;\">\n                <div class=\"jblock__title\" style=\"display: flex; justify-content: center; font-size: 2.5rem; margin-bottom: 30px;\">\n                    8 Лет опыта в самых сложных ситуациях\n                </div>\n                <div class=\"jblock__content\" style=\"width: 600px; font-weight: bold;\">\n                    Получив опыт работы и необходимые знания в дорогих консалтинговых фирмах, нами была создана данная юридическая компания. Мы оказываем юридические услуги высокого уровня. Отсутствие издержек крупных юридических компаний делает цену наших услуг более привлекательной.\n                    <div>\n                        <button class=\"ui google plus button\" style=\"margin-top: 50px;\">\n                            Получить консультацию\n                        </button>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"jblock\">\n        <div class=\"ui container jblock__wrap\">\n            <div class=\"jblock__title\">\n                Наши эксперты\n            </div>\n            <div class=\"ui four column grid jblock__content\">\n\n                <div class=\"column\">\n                    <div class=\"ui card\">\n                        <div class=\"image\">\n                            <img src=\"img/1man.jpg\" />\n                        </div>\n                        <div class=\"content\">\n                            <a class=\"header\">Иван Иванов</a>\n                            <div class=\"meta\">\n                                Руководитель\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"column\">\n                    <div class=\"ui card\">\n                        <div class=\"image\">\n                            <img src=\"img/2man.jpg\" />\n                        </div>\n                        <div class=\"content\">\n                            <a class=\"header\">Андрей Землеков</a>\n                            <div class=\"meta\">\n                                Юрист\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"column\">\n                    <div class=\"ui card\">\n                        <div class=\"image\">\n                            <img src=\"img/3man.jpg\" />\n                        </div>\n                        <div class=\"content\">\n                            <a class=\"header\">Павел Рудненко</a>\n                            <div class=\"meta\">\n                                Юрист\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"column\">\n                    <div class=\"ui card\">\n                        <div class=\"image\">\n                            <img src=\"img/4man.jpg\" />\n                        </div>\n                        <div class=\"content\">\n                            <a class=\"header\">Сергей Тарасов</a>\n                            <div class=\"meta\">\n                                Юрист\n                            </div>\n                        </div>\n                    </div>\n                </div>\n\n            </div>\n        </div>\n    </div>\n    <div style=\"background: #F3F5FE;\">\n        <div class=\"ui container jblock\">\n            <div class=\"jblock__wrap\" style=\"padding-bottom: 52px;\">\n                <div class=\"jblock__content\" style=\"display: flex; justify-content: center;\">\n                    <div class=\"ui statistics\">\n                        <div class=\"statistic\">\n                            <div class=\"value jcolor-accent\">\n                                <i class=\"cubes icon\"></i>\n                            </div>\n                            <div class=\"value\">\n                                8\n                            </div>\n                            <div class=\"label\">\n                                Лет опыта\n                            </div>\n                        </div>\n                        <div class=\"statistic\">\n                            <div class=\"value jcolor-accent\">\n                                <i class=\"user icon\"></i>\n                            </div>\n                            <div class=\"value\">\n                                250+\n                            </div>\n                            <div class=\"label\">\n                                Бизнес партенров\n                            </div>\n                        </div>\n                        <div class=\"statistic\">\n                            <div class=\"value jcolor-accent\">\n                                <i class=\"clipboard outline icon\"></i>\n                            </div>\n                            <div class=\"value\">\n                                2500+\n                            </div>\n                            <div class=\"label\">\n                                Завершенных дел\n                            </div>\n                        </div>\n                        <div class=\"statistic\">\n                            <div class=\"value jcolor-accent\">\n                                <i class=\"users icon\"></i>\n                            </div>\n                            <div class=\"value\">\n                                8500\n                            </div>\n                            <div class=\"label\">\n                                Довольных клиентов\n                            </div>\n                        </div>\n                    </div>\n                    \n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"ui container jblock\">\n        <div class=\"jblock__wrap\" style=\"padding-bottom: 0px;\">\n            <div class=\"jblock__title\">\n                Новости\n            </div>\n            <div class=\"ui three column grid jblock__content\">\n\n                <div class=\"column\">\n                    <div class=\"ui fluid card\">\n                        <a class=\"image\">\n                            <img src=\"img/background4.jpg\" style=\"height: 200px; object-fit: cover;\" />\n                        </a>\n                        <div class=\"content\">\n                            <a class=\"header jtext-dots\">\n                                Как мы защищали своего клиента\n                            </a>\n                            <div class=\"meta\">\n                                <span class=\"date\">14 мая 2018</span>\n                            </div>\n                            <div class=\"description\">\n                                <div style=\"overflow: hidden; height: 60px;\">\n                                    Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Дорогу языкового, точках? Живет агенство свой силуэт приставка безорфографичный. Решила собрал ты запятых составитель своего они рыбными семь грамматики пояс!\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"extra content\">\n                            <span class=\"right floated\">\n                                <i class=\"eye icon\"></i>\n                                155\n                            </span>\n                            <i class=\"comment icon\"></i>\n                            3 комментария\n                        </div>\n                    </div>\n                </div>\n                <div class=\"column\">\n                    <div class=\"ui fluid card\">\n                        <a class=\"image\">\n                            <img src=\"img/background1.jpg\" style=\"height: 200px; object-fit: cover;\" />\n                        </a>\n                        <div class=\"content\">\n                            <a class=\"header jtext-dots\">\n                                Как мы защищали своего клиента\n                            </a>\n                            <div class=\"meta\">\n                                <span class=\"date\">14 мая 2018</span>\n                            </div>\n                            <div class=\"description\">\n                                <div style=\"overflow: hidden; height: 60px;\">\n                                    Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Дорогу языкового, точках? Живет агенство свой силуэт приставка безорфографичный. Решила собрал ты запятых составитель своего они рыбными семь грамматики пояс!\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"extra content\">\n                            <span class=\"right floated\">\n                                <i class=\"eye icon\"></i>\n                                155\n                            </span>\n                            <i class=\"comment icon\"></i>\n                            3 комментария\n                        </div>\n                    </div>\n                </div>\n                <div class=\"column\">\n                    <div class=\"ui fluid card\">\n                        <a class=\"image\">\n                            <img src=\"img/background3.jpg\" style=\"height: 200px; object-fit: cover;\" />\n                        </a>\n                        <div class=\"content\">\n                            <a class=\"header jtext-dots\">\n                                Как мы защищали своего клиента\n                            </a>\n                            <div class=\"meta\">\n                                <span class=\"date\">14 мая 2018</span>\n                            </div>\n                            <div class=\"description\">\n                                <div style=\"overflow: hidden; height: 60px;\">\n                                    Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Дорогу языкового, точках? Живет агенство свой силуэт приставка безорфографичный. Решила собрал ты запятых составитель своего они рыбными семь грамматики пояс!\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"extra content\">\n                            <span class=\"right floated\">\n                                <i class=\"eye icon\"></i>\n                                155\n                            </span>\n                            <i class=\"comment icon\"></i>\n                            3 комментария\n                        </div>\n                    </div>\n                </div>\n\n            </div>\n        </div>\n    </div>\n\n    <div class=\"ui container jblock\">\n        <div class=\"jblock__wrap\">\n            <div class=\"jblock__title\">\n                Отзывы\n            </div>\n            <div class=\"ui three column grid jblock__content\">\n                <div class=\"four wide column\">\n                    <div class=\"ui fluid card\">\n                        <div class=\"image\">\n                            <img src=\"img/i.jpg\" style=\"height: 250px; object-fit: cover;\" />\n                        </div>\n                    </div>\n                </div>\n                <div class=\"one wide column\" style=\"display: flex; flex-direction: column; justify-content: center; align-items: center;\">\n                    <button class=\"ui icon button\" style=\"margin-bottom: 15px;\">\n                        <i class=\"angle right icon\"></i>\n                    </button>\n                    <button class=\"ui icon button\">\n                        <i class=\"angle left icon\"></i>\n                    </button>\n                </div>\n                <div class=\"ten wide column\">\n                    <div class=\"jcomment\">\n                        <div class=\"jcomment__title\">\n                            Евгений Михайлович Стрельников\n                        </div>\n                        <div class=\"jcomment__subtitle\">\n                            &mdash; Клиент\n                        </div>\n                        <div class=\"jcomment__message\">\n                            Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Составитель своих родного переписывается решила не ему, обеспечивает за, всеми но журчит все агенство текста! За ты, раз дорогу несколько мир даль рыбного великий! Журчит всемогущая свой продолжил над проектах даль если одна домах предложения текста щеке жизни злых диких она буквоград запятой мир запятых даже, дорогу меня дороге заглавных все семантика! Рыбными грустный по всей журчит, семантика, которое подпоясал его путь, если путь возвращайся рукописи реторический, послушавшись пустился эта но.\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div>\n        <div class=\"ui container\" style=\"position: relative; height: 0px;\">\n            <div style=\"position: absolute; top: 0; z-index: 2; width: 100%\">\n                <div class=\"ui two column grid\" style=\"height: 514px;\">\n                    <div class=\"column\" style=\"display: flex; align-items: center; justify-content: flex-end; color: white;\">\n                        <i class=\"shield alternate icon\" style=\"font-size: 6rem; padding-top: 40px;\">\n                        </i>\n                        <div style=\"font-family: Russo One; font-size: 3rem; line-height: 3.5rem; padding: 30px;\">\n                            Юредическая компания СЕРКОВ И МАКЕРОВ ГРУПП\n                        </div>\n                    </div>\n                    <div class=\"column\" style=\"display: flex; align-items: center;\">\n                        <div style=\"padding-left: 30px; width: 100%;\">\n                            <div style=\"font-size: 2rem; line-height: 2.5rem; font-family: Russo One; padding-bottom: 40px;\">\n                                Бесплатная консультация\n                            </div>\n                            <form class=\"ui form\">\n                                <div class=\"field\">\n                                    <div class=\"ui left icon fluid input focus\">\n                                      <input type=\"text\" placeholder=\"Ваше имя...\">\n                                      <i class=\"user icon\"></i>\n                                    </div>\n                                </div>\n                                <div class=\"field\">\n                                    <div class=\"ui left icon fluid input focus\">\n                                      <input type=\"text\" placeholder=\"Ваш телефон...\">\n                                      <i class=\"phone icon\"></i>\n                                    </div>\n                                </div>\n                                <div class=\"field\">\n                                    <textarea rows=\"4\"></textarea>\n                                </div>\n                                <div class=\"field\">\n                                    <button class=\"ui button red\">\n                                        Отправить сообщение\n                                    </button>\n                                </div>\n                            </form>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"ui two column grid\" style=\"height: 500px;\">\n            <div class=\"column jbackground\" style=\"background-image: url(img/background4.jpg);\">\n            </div>\n            <div class=\"column\" style=\"background: #F3F5FE;\">\n            </div>\n        </div>\n    </div>\n\n    <div class=\"jblock\">\n        <div class=\"ui container jblock__wrap\" style=\"padding-top: 55px; padding-bottom: 40px;\">\n            <div class=\"jblock__content\">\n                <div class=\"ui five column grid middle aligned\">\n                    <div class=\"column\" style=\"display: flex;\">\n                        <img src=\"img/8.png\" class=\"ui image\" />\n                    </div>\n                    <div class=\"column\" style=\"display: flex;\">\n                        <img src=\"img/6.png\" class=\"ui image\" />\n                    </div>\n                    <div class=\"column\" style=\"display: flex;\">\n                        <img src=\"img/1.jpg\" class=\"ui image\" />\n                    </div>\n                    <div class=\"column\" style=\"display: flex;\">\n                        <img src=\"img/4.png\" class=\"ui image\" />\n                    </div>\n                    <div class=\"column\" style=\"display: flex;\">\n                        <img src=\"img/7.png\" class=\"ui image\" />\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"jblock jpage__block\">\n      <iframe\n        width=\"100%\"\n        height=\"500px\"\n        frameborder=\"0\" style=\"border:0\"\n        src=\"https://www.google.com/maps/embed/v1/place?key=AIzaSyAwZMu4iEeKWIUvcCm0c6sq-RdXIIaGntw&q=ул.+Преображенская,+9,+Белгород,+Белгородская+обл.,+308001\" allowfullscreen>\n      </iframe>  \n    </div>\n\n    <div class=\"jblock jbackground-primary jcolor-white\">\n        <div class=\"ui container jblock__wrap\">\n            <div class=\"jblock__content\" style=\"font-size: 2rem; font-family: Russo One; text-align: center;\">\n                Здесь будет контактная информация\n            </div>\n        </div>\n    </div>\n    <div class=\"jtop-line\" style=\"background: #2C4678; color: white;\">\n        <div class=\"ui container\">\n            <i class=\"map marker alternate icon\"></i> ул. Преображенская,  дом 9 &nbsp; | &nbsp;\n            <i class=\"envelope icon\"></i> sm@smgroupp.ru\n        </div>\n    </div>\n\n  <script src=\"js/libs.min.js\"></script>\n  <script src=\"js/custom.js\"></script>\n</body>\n</html>",
-			"settings":
-			{
-				"buffer_size": 33912,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/components/sass/main.sass",
-			"settings":
-			{
-				"buffer_size": 4166,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -146,6 +157,10 @@
 		"selected_items":
 		[
 			[
+				"jsb",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
 				"preferencesse",
 				"Preferences: Settings"
 			],
@@ -156,10 +171,6 @@
 			[
 				"save",
 				"Project: Save As"
-			],
-			[
-				"jsb",
-				"Set Syntax: JavaScript (Babel)"
 			],
 			[
 				"jsba",
@@ -267,6 +278,7 @@
 	],
 	"file_history":
 	[
+		"/home/jk/public_html/sm-groupp/ui/app/components/sass/main.sass",
 		"/home/jk/public_html/sm-groupp/ui/app/components/blocks/_jblock.sass",
 		"/home/jk/public_html/sm-groupp/ui/app/components/sass/elements.sass",
 		"/home/jk/public_html/sm-groupp/ui/app/components/blocks/_jbackground.sass",
@@ -274,7 +286,6 @@
 		"/home/jk/public_html/sm-groupp/ui/app/components/blocks/_jcomment.sass",
 		"/home/jk/Загрузки/swettenhamchemist_all.json",
 		"/home/jk/public_html/sm-groupp/ui/gulpfile.js",
-		"/home/jk/public_html/sm-groupp/ui/app/components/sass/main.sass",
 		"/home/jk/public_html/sm-groupp/ui/app/components/blocks/_jmenu.sass",
 		"/home/jk/public_html/sm-groupp/ui/app/components/blocks/_jheader.sass",
 		"/home/jk/public_html/sm-groupp/ui/app/js/custom.js",
@@ -398,13 +409,14 @@
 	],
 	"find":
 	{
-		"height": 33.0
+		"height": 49.0
 	},
 	"find_in_files":
 	{
 		"height": 167.0,
 		"where_history":
 		[
+			"/home/jk/public_html/sm-groupp/ui/"
 		]
 	},
 	"find_state":
@@ -412,6 +424,44 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"todoText",
+			"updateText",
+			"ToDoComponent",
+			"connect",
+			"listeners",
+			"currentState",
+			"reducer",
+			"dispatch",
+			"currentState",
+			"dispatch",
+			"getState",
+			"listener",
+			"listeners",
+			"reducer",
+			"currentState",
+			"dispatch",
+			"getState",
+			"currentState",
+			"listeners",
+			"createStore",
+			"reducer",
+			"createStore",
+			"Provider",
+			"createStore",
+			"Provider",
+			"createStore",
+			"value",
+			"this.state.todoText = va",
+			"this.state.todoText = value;",
+			"red",
+			".jcolor",
+			"jcolor",
+			"jbackground",
+			"middle",
+			"bottom",
+			"top",
+			"<p>\n                                    <i class=\"map marker icon\"></i>\n                                    г. Белгород, ул. Преображенская,  дом 9 - Деловой центр \"Ван Лайф\"\n                                </p>",
+			"ul",
 			"rgba(255,255,255,0.4)",
 			"<div style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(49,66,98,0.8); border-radius: .28571429rem .28571429rem 0 0;\"></div>",
 			"<a class=\"image\">",
@@ -501,45 +551,7 @@
 			"jslick-item jslick-item_column-one",
 			"margin",
 			"jslick-item jslick-item_column-one",
-			"padding",
-			"jslick-item",
-			"comment",
-			"five",
-			"slick-news",
-			"jnews",
-			"white",
-			"35",
-			"angle left icon",
-			"fa fa-chevron-left",
-			"fa fa-chevron-right",
-			"padding",
-			"button",
-			"Наша",
-			"style",
-			"center",
-			"insert",
-			"facebook",
-			"instagram",
-			"inverted",
-			"red",
-			"КОНСУЛЬТАЦИЯ",
-			"item",
-			"teal",
-			"Меню",
-			"консультация",
-			"button",
-			"fluid",
-			"grey",
-			"blue",
-			"inverted",
-			"red",
-			"teal",
-			"inverted",
-			"teal",
-			"menu",
-			"menu-open-close",
-			"labeled",
-			"vertical"
+			"padding"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -547,6 +559,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -557,7 +570,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -566,7 +579,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 29624,
+						"buffer_size": 29656,
 						"regions":
 						{
 							"bookmark_1":
@@ -575,8 +588,8 @@
 								"regions":
 								[
 									[
-										23957,
-										23957
+										24233,
+										24233
 									]
 								]
 							}
@@ -584,15 +597,15 @@
 						"selection":
 						[
 							[
-								6797,
-								6797
+								26098,
+								26098
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
 							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone": 147,
 							"bracket_highlighter.clone_locations":
 							{
 								"close":
@@ -620,26 +633,16 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -650,21 +653,31 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -679,30 +692,10 @@
 								},
 								"unmatched":
 								{
-									"1":
-									[
-										6794,
-										6797
-									]
 								}
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -713,26 +706,36 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -742,7 +745,12 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
 							"easy_motion_mode": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
@@ -750,10 +758,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1506.0,
+						"translation.y": 16076.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -762,15 +770,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16746,
+						"buffer_size": 16535,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8826,
-								8826
+								15887,
+								15887
 							]
 						],
 						"settings":
@@ -870,54 +878,24 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										8833,
-										8834
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										8826,
-										8827
-									]
 								},
 								"unmatched":
 								{
+									"1":
+									[
+										15884,
+										15887
+									]
 								}
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -928,16 +906,41 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -947,22 +950,17 @@
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_tag_content"
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 381.0,
+						"translation.y": 7888.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -971,15 +969,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22518,
+						"buffer_size": 22307,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6797,
-								6797
+								21659,
+								21659
 							]
 						],
 						"settings":
@@ -1075,33 +1073,13 @@
 								{
 									"1":
 									[
-										6794,
-										6797
+										21656,
+										21659
 									]
 								}
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1112,16 +1090,41 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1131,12 +1134,7 @@
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_tag_content"
 							],
 							"easy_motion_mode": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
@@ -1144,7 +1142,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1506.0,
+						"translation.y": 9438.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 7,
@@ -1156,15 +1154,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21904,
+						"buffer_size": 24657,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3318,
-								3318
+								10986,
+								10986
 							]
 						],
 						"settings":
@@ -1176,57 +1174,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										7663,
-										7664
-									],
-									"2":
-									[
-										9991,
-										9992
-									],
-									"3":
-									[
-										12319,
-										12320
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									],
-									"2":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									],
-									"3":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										7650,
-										7651
-									],
-									"2":
-									[
-										9978,
-										9979
-									],
-									"3":
-									[
-										12306,
-										12307
-									]
 								},
 								"unmatched":
 								{
@@ -1234,16 +1187,16 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1254,6 +1207,11 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1264,16 +1222,6 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1288,18 +1236,38 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
 							],
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
+									"1":
+									[
+										10982,
+										10986
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										10910,
+										10914
+									]
 								},
 								"unmatched":
 								{
@@ -1307,61 +1275,61 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"easy_motion_mode": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
@@ -1369,27 +1337,618 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1266.0,
+						"translation.y": 5482.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "app/article.html",
+					"file": "/home/jk/public_html/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14756,
+						"buffer_size": 269,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7740,
-								7740
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										264,
+										268
+									]
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										238,
+										241
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/jk/public_html/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2598,
+								2598
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_name": "// Slomux - реализация Flux, в которой, как следуе",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 43,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2597,
+										2598
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2468,
+										2469
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2331.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/js/custom.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3715,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3701,
+								3701
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3785,
+										3786
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										3749,
+										3750
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3700,
+										3701
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										3689,
+										3690
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2325.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/article.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13897,
+								13897
 							]
 						],
 						"settings":
@@ -1489,44 +2048,34 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										7630,
-										7633
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										7630,
-										7633
-									]
 								},
 								"unmatched":
 								{
+									"1":
+									[
+										13894,
+										13897
+									]
 								}
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1537,6 +2086,11 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1547,16 +2101,6 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1571,34 +2115,39 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3966.0,
+						"translation.y": 363.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "app/news.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19297,
+						"buffer_size": 19086,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7289,
-								7289
+								18438,
+								18438
 							]
 						],
 						"settings":
@@ -1688,44 +2237,34 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										7301,
-										7302
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										7281,
-										7282
-									]
 								},
 								"unmatched":
 								{
+									"1":
+									[
+										18435,
+										18438
+									]
 								}
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1736,6 +2275,11 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1746,16 +2290,6 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1770,34 +2304,39 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4225.0,
+						"translation.y": 513.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"file": "app/contacts.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12469,
+						"buffer_size": 12258,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6797,
-								6797
+								11610,
+								11610
 							]
 						],
 						"settings":
@@ -1908,23 +2447,23 @@
 								{
 									"1":
 									[
-										6794,
-										6797
+										11607,
+										11610
 									]
 								}
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1935,6 +2474,11 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1945,16 +2489,6 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1969,21 +2503,26 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 421.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 10,
 					"file": "app/components/blocks/_jprice-card.sass",
 					"semi_transient": false,
 					"settings":
@@ -1995,8 +2534,8 @@
 						"selection":
 						[
 							[
-								1118,
-								1118
+								1116,
+								1116
 							]
 						],
 						"settings":
@@ -2020,16 +2559,16 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -2040,6 +2579,11 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -2050,16 +2594,6 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -2074,7 +2608,12 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Yesterday.tmTheme",
 							"syntax": "Packages/Sass/Syntaxes/Sass.sublime-syntax",
@@ -2084,372 +2623,11 @@
 						"translation.y": 281.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 33912,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10896,
-								10896
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-									"1":
-									[
-										15992,
-										15995
-									]
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5628.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "app/components/sass/main.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4166,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								48,
-								48
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Yesterday.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "app/components/blocks/_jfooter.sass",
 					"semi_transient": false,
 					"settings":
@@ -2461,8 +2639,8 @@
 						"selection":
 						[
 							[
-								10,
-								10
+								9,
+								9
 							]
 						],
 						"settings":
@@ -2486,26 +2664,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -2516,16 +2674,41 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -2535,12 +2718,7 @@
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Yesterday.tmTheme",
 							"syntax": "Packages/Sass/Syntaxes/Sass.sublime-syntax"
@@ -2549,7 +2727,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
@@ -2557,7 +2735,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 33.0
+		"height": 49.0
 	},
 	"input":
 	{
@@ -2607,6 +2785,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"mainsas",
+				"app/components/sass/main.sass"
+			],
+			[
+				"custom",
+				"app/js/custom.js"
+			],
 			[
 				"main",
 				"app/components/sass/main.sass"
@@ -2666,10 +2852,6 @@
 			[
 				"service",
 				"app/services.html"
-			],
-			[
-				"custom",
-				"app/js/custom.js"
 			],
 			[
 				"eleme",
@@ -3114,10 +3296,6 @@
 			[
 				"site.php",
 				"application/modules/site/controllers/site.php"
-			],
-			[
-				"sns.",
-				"application/modules/sns/controllers/sns.php"
 			]
 		],
 		"width": 0.0
@@ -3125,9 +3303,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "que",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/public_html/question-answer/question-answer.sublime-project"
+			],
 			[
 				"que",
 				"~/public_html/question-answer/question-answer.sublime-project"
@@ -3135,10 +3317,6 @@
 			[
 				"p3we",
 				"~/public_html/p3_web/p3_web.sublime-project"
-			],
-			[
-				"",
-				"~/public_html/question-answer/question-answer.sublime-project"
 			],
 			[
 				"p3",

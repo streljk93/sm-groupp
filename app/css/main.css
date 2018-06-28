@@ -25237,52 +25237,52 @@ body {
   color: #FFFFFF; }
 
 .jbackground-primary {
-  background-color: #29455F; }
+  background-color: #29455F !important; }
 
 .jbackground-accent {
-  background-color: #D95C5C; }
+  background-color: #D95C5C !important; }
 
 .jbackground-secondary {
-  background-color: #00B5AD; }
+  background-color: #00B5AD !important; }
 
 .jbackground-light {
-  background-color: #F2F4F5; }
+  background-color: #F2F4F5 !important; }
 
 .jbackground-white {
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF !important; }
 
 .jcolor-white {
-  color: #FFFFFF; }
+  color: #FFFFFF !important; }
 
 .jcolor-grey {
-  color: #CCCCCC; }
+  color: #CCCCCC !important; }
 
 .jcolor-black {
-  color: #1B1C1D; }
+  color: #1B1C1D !important; }
 
 .jcolor-yellow {
-  color: #F2C61F; }
+  color: #F2C61F !important; }
 
 .jcolor-teal {
-  color: #00B5AD; }
+  color: #00B5AD !important; }
 
 .jcolor-red {
-  color: #D95C5C; }
+  color: #D95C5C !important; }
 
 .jcolor-purple {
-  color: #564F8A; }
+  color: #564F8A !important; }
 
 .jcolor-pink {
-  color: #D9499A; }
+  color: #D9499A !important; }
 
 .jcolor-orange {
-  color: #E07B53; }
+  color: #E07B53 !important; }
 
 .jcolor-green {
-  color: #5BBD72; }
+  color: #5BBD72 !important; }
 
 .jcolor-blue {
-  color: #3B83C0; }
+  color: #3B83C0 !important; }
 
 .jbox-shadow-inner {
   -webkit-box-shadow: inset 0 15px 20px -10px rgba(0, 0, 0, 0.25), inset 0 -15px 20px -10px rgba(0, 0, 0, 0.25);
