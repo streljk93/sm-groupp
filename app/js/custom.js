@@ -15,15 +15,15 @@ $('.jheader__background').slick({
 $('.slick-article').slick({
     dots: false,
     speed: 300,
-    slidesToShow: 3,
+    slidesToShow: 2,
     adaptiveHeight: true,
     mobileFirst: true,
     responsive: [
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToShow: 2,
+                slidesToScroll: 2,
                 prevArrow: '<i class="angle double left icon" style="position:absolute;top:45%;left: -25px;color:#00B5AA;z-index:1;font-size:40px;cursor:pointer;"></i>',
                 nextArrow: '<i class="angle double right icon" style="position:absolute;top:45%;right: -30px;color:#00B5AA;z-index:1;font-size:40px;cursor:pointer;"></i>',
             }
